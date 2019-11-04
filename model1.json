@@ -178,7 +178,7 @@
             "@type": "RelationType" ,   
             "hasRelationOrigin": ["#AddTag"] ,
             "hasRelationDestination": ["#CreateWay", "#ModifyWay","#CreateNode","#ModifyNode","#CreateRelation","#ModifyRelation"]
-        },
+        }
 
     ]
 }
