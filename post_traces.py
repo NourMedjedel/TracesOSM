@@ -57,7 +57,9 @@ def post_osc_file(osc_file: str, model_url: str):
                         "@type": "m:AddNd",
                         "beginDT": timestamp,
                         "endDT": timestamp,
-                        "m:Ref": int(nd.attrib["ref"])
+                        "m:Ref": int(nd.attrib["ref"]),
+                        "m:AddNdTo": {
+                            "@id": "{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                     }
                     post(url=model_url, json=json)
 
@@ -84,7 +86,8 @@ def post_osc_file(osc_file: str, model_url: str):
                         "m:Type": member.attrib["type"],
                         "m:Ref": int(member.attrib["ref"]),
                         "m:Role": member.attrib["role"],
-                        "m:AddMemberTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
+                        "m:AddMemberTo": {
+                            "@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                     }
                     post(url=model_url, json=json)
 
@@ -96,7 +99,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "endDT": timestamp,
                     "m:Key": tag.attrib["k"],
                     "m:Value": tag.attrib["v"],
-                    "m:AddTagTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
+                    "m:AddTagTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                 }
                 post(url=model_url, json=json)
 
