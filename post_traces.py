@@ -16,7 +16,7 @@ def post_osc_file(osc_file: str, model_url: str):
             # ChangeNode
             if element.tag == "node":
                 json = {
-                    "@type": "{}Node".format(change.tag.title()),
+                    "@type": "m:{}Node".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "id": element.attrib["id"],
@@ -31,7 +31,7 @@ def post_osc_file(osc_file: str, model_url: str):
             # ChangeWay
             elif element.tag == "way":
                 json = {
-                    "@type": "{}Way".format(change.tag.title()),
+                    "@type": "m:{}Way".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "id": element.attrib["id"],
@@ -54,7 +54,7 @@ def post_osc_file(osc_file: str, model_url: str):
 
             elif element.tag == "relation":
                 json = {
-                    "@type": "{}Relation".format(change.tag.title()),
+                    "@type": "m:{}Relation".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "id": element.attrib["id"],
