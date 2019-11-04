@@ -1,9 +1,26 @@
 // Filter Create Node
-
 {
     "@id": "filter_create_node/",
     "@type": "ComputedTrace",
     "hasMethod": "filter",
     "hasSource": [ "t01/" ],
-    "parameter": [ "otypes=http://localhost:8001/osm/model1/CreateNode" ]
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateNode" ]
+}
+
+// Filter Create Way
+{
+    "@id": "filter_create_way/",
+    "@type": "ComputedTrace",
+    "hasMethod": "filter",
+    "hasSource": [ "t01/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateWay" ]
+}
+
+// Filter Create Relation
+{
+    "@id": "filter_create_relation/",
+    "@type": "ComputedTrace",
+    "hasMethod": "filter",
+    "hasSource": [ "t01/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateRelation" ]
 }

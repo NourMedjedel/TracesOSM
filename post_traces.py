@@ -10,7 +10,7 @@ def post(url, json):
         print(json)
 
 
-def post_osc_file(osc_file: str, model_url: str):
+def post_osc_file(osc_file: str, trace_url: str):
     tree = ET.parse(osc_file)
     root = tree.getroot()
 
@@ -34,7 +34,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Latitude": float(element.attrib["lat"]),
                     "m:Longitude": float(element.attrib["lon"])
                 }
-                post(url=model_url, json=json)
+                post(url=trace_url, json=json)
 
             # ChangeWay
             elif element.tag == "way":
@@ -48,7 +48,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Uid": int(element.attrib["uid"]),
                     "m:Version": int(element.attrib["version"])
                 }
-                post(url=model_url, json=json)
+                post(url=trace_url, json=json)
 
                 # AddNd
                 for nd in element.findall("nd"):
@@ -60,7 +60,7 @@ def post_osc_file(osc_file: str, model_url: str):
                         "m:AddNdTo": {
                             "@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                     }
-                    post(url=model_url, json=json)
+                    post(url=trace_url, json=json)
 
             # ChangeRelation
             elif element.tag == "relation":
@@ -74,7 +74,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Uid": int(element.attrib["uid"]),
                     "m:Version": int(element.attrib["version"])
                 }
-                post(url=model_url, json=json)
+                post(url=trace_url, json=json)
 
                 # AddMember
                 for member in element.findall("member"):
@@ -88,7 +88,7 @@ def post_osc_file(osc_file: str, model_url: str):
                         "m:AddMemberTo": {
                             "@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                     }
-                    post(url=model_url, json=json)
+                    post(url=trace_url, json=json)
 
             # AddTag
             for tag in element.findall("tag"):
@@ -98,15 +98,33 @@ def post_osc_file(osc_file: str, model_url: str):
                     "endDT": timestamp,
                     "m:Key": tag.attrib["k"],
                     "m:Value": tag.attrib["v"],
-                    "m:AddTagTo": {"@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
+                    "m:AddTagTo": {
+                        "@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                 }
-                post(url=model_url, json=json)
+                post(url=trace_url, json=json)
 
 
-def main(argv):
-    post_osc_file(osc_file=argv[1], model_url=argv[2])
+def post_trace(url: str, trace_id):
+    json = {
+        "@id": "{}".format(trace_id),
+        "@type": "StoredTrace",
+        "hasModel": url,
+        "origin": "1970-01-01T00:00:00Z"
+    }
+    post(url=url, json=json)
+    return "{}{}/".format(url, trace_id)
+
+
+def post_dir():
+    base_url = "http://localhost:8001/osm/"
+    for i in range(300, 318):
+        osc_file = "donnees_bbox/{}.osc".format(i)
+        trace_url = post_trace(url=base_url, trace_id=i)
+        print(osc_file, trace_url)
+        post_osc_file(osc_file=osc_file, trace_url=trace_url)
 
 
 if __name__ == "__main__":
     argv = sys.argv
-    main(argv)
+    # post_osc_file(osc_file=argv[1], trace_url=argv[2])
+    post_dir()
