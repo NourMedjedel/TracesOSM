@@ -17,8 +17,8 @@ def post_osc_file(osc_file: str, model_url: str):
             if element.tag == "node":
                 json = {
                     "@type": "{}Node".format(change.tag.title()),
-                    "begin": "{}".format(timestamp),
-                    "end": "{}".format(timestamp),
+                    "beginDT": timestamp,
+                    "endDT": timestamp,
                     "id": element.attrib["id"],
                     "user": element.attrib["user"],
                     "uid": element.attrib["uid"],
@@ -32,8 +32,8 @@ def post_osc_file(osc_file: str, model_url: str):
             elif element.tag == "way":
                 json = {
                     "@type": "{}Way".format(change.tag.title()),
-                    "begin": "{}".format(timestamp),
-                    "end": "{}".format(timestamp),
+                    "beginDT": timestamp,
+                    "endDT": timestamp,
                     "id": element.attrib["id"],
                     "user": element.attrib["user"],
                     "uid": element.attrib["uid"]
@@ -45,8 +45,8 @@ def post_osc_file(osc_file: str, model_url: str):
                 for nd in element.findall("nd"):
                     json = {
                         "@type": "AddNd",
-                        "begin": "{}".format(timestamp),
-                        "end": "{}".format(timestamp),
+                        "beginDT": timestamp,
+                        "endDT": timestamp,
                         "ref": nd.attrib["ref"]
                     }
                     r = requests.post(url=model_url, json=json)
@@ -55,8 +55,8 @@ def post_osc_file(osc_file: str, model_url: str):
             elif element.tag == "relation":
                 json = {
                     "@type": "{}Relation".format(change.tag.title()),
-                    "begin": "{}".format(timestamp),
-                    "end": "{}".format(timestamp),
+                    "beginDT": timestamp,
+                    "endDT": timestamp,
                     "id": element.attrib["id"],
                     "user": element.attrib["user"],
                     "uid": element.attrib["uid"]
@@ -68,8 +68,8 @@ def post_osc_file(osc_file: str, model_url: str):
                 for member in element.findall("member"):
                     json = {
                         "@type": "AddMember",
-                        "begin": "{}".format(timestamp),
-                        "end": "{}".format(timestamp),
+                        "beginDT": timestamp,
+                        "endDT": timestamp,
                         "type": member.attrib["type"],
                         "ref": member.attrib["ref"],
                         "role": member.attrib["role"]
@@ -81,8 +81,8 @@ def post_osc_file(osc_file: str, model_url: str):
             for tag in element.findall("tag"):
                 json = {
                     "@type": "AddTag",
-                    "begin": "{}".format(timestamp),
-                    "end": "{}".format(timestamp),
+                    "beginDT": timestamp,
+                    "endDT": timestamp,
                     "key": tag.attrib["k"],
                     "value": tag.attrib["v"]
                 }
