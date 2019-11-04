@@ -44,7 +44,7 @@ def post_osc_file(osc_file: str, model_url: str):
                 # AddNd
                 for nd in element.findall("nd"):
                     json = {
-                        "@type": "AddNd",
+                        "@type": "m:AddNd",
                         "beginDT": timestamp,
                         "endDT": timestamp,
                         "ref": nd.attrib["ref"]
@@ -67,7 +67,7 @@ def post_osc_file(osc_file: str, model_url: str):
                 # AddMember
                 for member in element.findall("member"):
                     json = {
-                        "@type": "AddMember",
+                        "@type": "m:AddMember",
                         "beginDT": timestamp,
                         "endDT": timestamp,
                         "type": member.attrib["type"],
@@ -80,7 +80,7 @@ def post_osc_file(osc_file: str, model_url: str):
             # AddTag
             for tag in element.findall("tag"):
                 json = {
-                    "@type": "AddTag",
+                    "@type": "m:AddTag",
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "key": tag.attrib["k"],
