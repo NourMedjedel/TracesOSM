@@ -2,7 +2,7 @@
     "@context": "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context",
     "@graph": [
         {
-            "@id": "https://localhost:8001/osm/t01",
+            "@id": "https://localhost:8001/osm/model1",
             "@type": "TraceModel",
             "inBase": "./" ,
             "hasUnit": "millisecond"
