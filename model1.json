@@ -7,12 +7,10 @@
             "inBase": "./" ,
             "hasUnit": "millisecond"
         },
-        //Change SuperObsesl
         {
             "@id": "#Change",
             "@type": "ObselType"
         },
-        //Obsels fils WayEvent NodeEvent RelationEvent 
         {
             "@id": "#WayEvent",
             "@type": "ObselType",
@@ -28,7 +26,6 @@
             "@type": "ObselType",
             "hasSuperObselType": ["#Change"]
         },
-        //WayEvent Element (Create Modify Delete)
         {
             "@id": "#CreateWay",
             "@type": "ObselType" ,
@@ -44,7 +41,6 @@
             "@type": "ObselType" ,
             "hasSuperObselType": ["#WayEvent"]
         },
-        //NodeEvent Element (Create Modify Delete)
         {
             "@id": "#CreateNode",
             "@type": "ObselType" ,
@@ -60,7 +56,6 @@
             "@type": "ObselType" ,
             "hasSuperObselType": ["#NodeEvent"]
         },
-        //RelationEvent Element (Create Modify Delete)
         {
             "@id": "#CreateRelation",
             "@type": "ObselType" ,
@@ -76,7 +71,6 @@
             "@type": "ObselType" ,
             "hasSuperObselType": ["#RelationEvent"]
         },
-        // Nd Tag Member
         {
             "@id": "#AddNd",
             "@type": "ObselType"
@@ -89,23 +83,6 @@
             "@id": "#AddMember",
             "@type": "ObselType"
         },
-
-// Attributs 
-    // dates : prévu par ktbs
-    //    {
-    //       "@id": "#DateDebut" ,
-    //        "@type": "AttributeType" ,
-    //        "hasAttributeObselType": ["#Change"] ,
-    //        "hasAttributeDatatype": ["xsd:date"] ,
-    //        "label": "DateDebut"
-    //    },
-    //    {
-    //        "@id": "#DateFin" ,
-    //        "@type": "AttributeType" ,
-    //       "hasAttributeObselType": ["#Change"] ,
-    //        "hasAttributeDatatype": ["xsd:date"] ,
-    //        "label": "DateFin"
-    //    },
         {
             "@id": "#User" ,
             "@type": "AttributeType" ,
@@ -127,8 +104,6 @@
             "hasAttributeDatatype": ["xsd:int"] ,
             "label": "Version"
         },
-
-        // id
         {
             "@id": "#id" ,
             "@type": "AttributeType" ,
@@ -136,9 +111,7 @@
             "hasAttributeDatatype": ["xsd:int"] ,
             "label": "id"
         },
-        
-        // lat & lon
-        {
+                {
             "@id": "#Latitude" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#CreateNode", "#ModifyNode"] ,
@@ -152,19 +125,13 @@
             "hasAttributeDatatype": ["xsd:float"] ,
             "label": "Longitude"
         },
-        
-
-        // AddNd Attributs 
-        {
+                {
             "@id": "#Ref" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#AddNd"] ,
             "hasAttributeDatatype": ["xsd:integer"] ,
             "label": "Ref"
         },
-
-        // AddTag Attributs
-        //key
         {
             "@id": "#Key" ,
             "@type": "AttributeType" ,
@@ -172,7 +139,6 @@
             "hasAttributeDatatype": ["xsd:string"] ,
             "label": "Key"
         },
-        //value
         {
             "@id": "#Value" ,
             "@type": "AttributeType" ,
@@ -180,9 +146,6 @@
             "hasAttributeDatatype": ["xsd:string"] ,
             "label": "Value"
         },
-
-        //AddMember Attributs
-        //type
         {
             "@id": "#Type" ,
             "@type": "AttributeType" ,
@@ -190,7 +153,6 @@
             "hasAttributeDatatype": ["xsd:string"] ,
             "label": "Type"
         },
-        //ref
         {
             "@id": "#Ref" ,
             "@type": "AttributeType" ,
@@ -198,23 +160,19 @@
             "hasAttributeDatatype": ["xsd:string"] ,
             "label": "Ref"
         },
-        //role
         {
             "@id": "#Role" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#AddMember"] ,
             "hasAttributeDatatype": ["xsd:string"] ,
             "label": "Role"
-        },
-// Relations avec AddNd AddTag AddMember 
-    //AddNd 
+        }, 
         {
             "@id": "#AddNdTo" ,
             "@type": "RelationType" ,
             "hasRelationOrigin": ["#AddNd"] ,
             "hasRelationDestination": ["#CreateWay", "#ModifyWay"]
         },
-    //AddTag
         {
             "@id": "#AddTagTo" ,
             "@type": "RelationType" ,   
