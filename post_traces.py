@@ -3,6 +3,13 @@ import xml.etree.ElementTree as ET
 import sys
 
 
+def post(url, json):
+    r = requests.post(url=url, json=json)
+    if r.status_code >= 300:
+        print(r.status_code, r.reason)
+        print(json)
+
+
 def post_osc_file(osc_file: str, model_url: str):
     tree = ET.parse(osc_file)
     root = tree.getroot()
@@ -26,8 +33,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Latitude": element.attrib["lat"],
                     "m:Longitude": element.attrib["lon"]
                 }
-                r = requests.post(url=model_url, json=json)
-                print(r.status_code, r.reason)
+                post(url=model_url, json=json)
 
             # ChangeWay
             elif element.tag == "way":
@@ -41,8 +47,8 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Uid": element.attrib["uid"],
                     "m:AddNdTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                 }
-                r = requests.post(url=model_url, json=json)
-                print(r.status_code, r.reason)
+                post(url=model_url, json=json)
+
 
                 # AddNd
                 for nd in element.findall("nd"):
@@ -52,8 +58,8 @@ def post_osc_file(osc_file: str, model_url: str):
                         "endDT": timestamp,
                         "m:Ref": nd.attrib["ref"]
                     }
-                    r = requests.post(url=model_url, json=json)
-                    print(r.status_code, r.reason)
+                    post(url=model_url, json=json)
+
 
             elif element.tag == "relation":
                 json = {
@@ -65,8 +71,8 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:User": element.attrib["user"],
                     "m:Uid": element.attrib["uid"]
                 }
-                r = requests.post(url=model_url, json=json)
-                print(r.status_code, r.reason)
+                post(url=model_url, json=json)
+
 
                 # AddMember
                 for member in element.findall("member"):
@@ -79,8 +85,7 @@ def post_osc_file(osc_file: str, model_url: str):
                         "m:Role": member.attrib["role"],
                         "m:AddMemberTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                     }
-                    r = requests.post(url=model_url, json=json)
-                    print(r.status_code, r.reason)
+                    post(url=model_url, json=json)
 
             # AddTag
             for tag in element.findall("tag"):
@@ -92,13 +97,11 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:Value": tag.attrib["v"],
                     "m:AddTagTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                 }
-                r = requests.post(url=model_url, json=json)
-                print(r.status_code, r.reason)
+                post(url=model_url, json=json)
+
 
 
 def main(argv):
-    print("osc_file: {}".format(argv[1]))
-    print("model_url: {}".format(argv[2]))
     post_osc_file(osc_file=argv[1], model_url=argv[2])
 
 
