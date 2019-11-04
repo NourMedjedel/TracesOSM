@@ -23,13 +23,14 @@ def post_osc_file(osc_file: str, model_url: str):
             # ChangeNode
             if element.tag == "node":
                 json = {
-                    "@id": "node_{}".format(element.attrib["id"]),
+                    "@id": "node_{}_{}".format(element.attrib["id"], element.attrib["version"]),
                     "@type": "m:{}Node".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
                     "m:Uid": int(element.attrib["uid"]),
+                    "m:Version": int(element.attrib["version"]),
                     "m:Latitude": float(element.attrib["lat"]),
                     "m:Longitude": float(element.attrib["lon"])
                 }
@@ -38,13 +39,14 @@ def post_osc_file(osc_file: str, model_url: str):
             # ChangeWay
             elif element.tag == "way":
                 json = {
-                    "@id": "way_{}".format(element.attrib["id"]),
+                    "@id": "way_{}_{}".format(element.attrib["id"], element.attrib["version"]),
                     "@type": "m:{}Way".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
                     "m:Uid": int(element.attrib["uid"]),
+                    "m:Version": int(element.attrib["version"]),
                     "m:AddNdTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                 }
                 post(url=model_url, json=json)
@@ -59,15 +61,17 @@ def post_osc_file(osc_file: str, model_url: str):
                     }
                     post(url=model_url, json=json)
 
+            # ChangeRelation
             elif element.tag == "relation":
                 json = {
-                    "@id": "relation_{}".format(element.attrib["id"]),
+                    "@id": "relation_{}_{}".format(element.attrib["id"], element.attrib["version"]),
                     "@type": "m:{}Relation".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
                     "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
-                    "m:Uid": int(element.attrib["uid"])
+                    "m:Uid": int(element.attrib["uid"]),
+                    "m:Version": int(element.attrib["version"])
                 }
                 post(url=model_url, json=json)
 
