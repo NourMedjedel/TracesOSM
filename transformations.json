@@ -1,0 +1,9 @@
+// Filter Create Node
+
+{
+    "@id": "filter_create_node/",
+    "@type": "ComputedTrace",
+    "hasMethod": "filter",
+    "hasSource": [ "t01/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1/CreateNode" ]
+}
