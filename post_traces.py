@@ -104,22 +104,23 @@ def post_osc_file(osc_file: str, trace_url: str):
                 post(url=trace_url, json=json)
 
 
-def post_trace(url: str, trace_id):
+def post_trace(base_url: str, trace_id, model_id):
+    model_url = base_url + model_id
     json = {
         "@id": "{}".format(trace_id),
         "@type": "StoredTrace",
-        "hasModel": url,
+        "hasModel": model_url,
         "origin": "1970-01-01T00:00:00Z"
     }
-    post(url=url, json=json)
-    return "{}{}/".format(url, trace_id)
+    post(url=base_url, json=json)
+    return "{}{}/".format(base_url, trace_id)
 
 
 def post_dir():
     base_url = "http://localhost:8001/osm/"
     for i in range(300, 318):
         osc_file = "donnees_bbox/{}.osc".format(i)
-        trace_url = post_trace(url=base_url, trace_id=i)
+        trace_url = post_trace(base_url=base_url, trace_id=i, model_id="model1")
         print(osc_file, trace_url)
         post_osc_file(osc_file=osc_file, trace_url=trace_url)
 
