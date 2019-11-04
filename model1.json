@@ -171,14 +171,19 @@
             "@id": "#AddNdTo" ,
             "@type": "RelationType" ,
             "hasRelationOrigin": ["#AddNd"] ,
-            "hasRelationDestination": ["#CreateWay", "#ModifyWay"]
+            "hasRelationDestination": ["#CreateWay", "#ModifyWay", "#DeleteWay"]
         },
         {
             "@id": "#AddTagTo" ,
             "@type": "RelationType" ,   
             "hasRelationOrigin": ["#AddTag"] ,
-            "hasRelationDestination": ["#CreateWay", "#ModifyWay","#CreateNode","#ModifyNode","#CreateRelation","#ModifyRelation"]
-        }
-
+            "hasRelationDestination": ["#CreateWay", "#ModifyWay", "#DeleteWay", "#CreateNode","#ModifyNode","#DeleteNode","#CreateRelation","#ModifyRelation", "#DeleteRelation"]
+        },
+        {
+            "@id": "#AddMemberTo" ,
+            "@type": "RelationType" ,   
+            "hasRelationOrigin": ["#AddMember"] ,
+            "hasRelationDestination": ["#CreateRelation", "#ModifyRelation", "#DeleteRelation"]
+        },
     ]
 }
