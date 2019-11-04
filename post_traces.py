@@ -27,11 +27,11 @@ def post_osc_file(osc_file: str, model_url: str):
                     "@type": "m:{}Node".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
-                    "m:id": element.attrib["id"],
+                    "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
-                    "m:Uid": element.attrib["uid"],
-                    "m:Latitude": element.attrib["lat"],
-                    "m:Longitude": element.attrib["lon"]
+                    "m:Uid": int(element.attrib["uid"]),
+                    "m:Latitude": float(element.attrib["lat"]),
+                    "m:Longitude": float(element.attrib["lon"])
                 }
                 post(url=model_url, json=json)
 
@@ -42,13 +42,12 @@ def post_osc_file(osc_file: str, model_url: str):
                     "@type": "m:{}Way".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
-                    "m:id": element.attrib["id"],
+                    "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
-                    "m:Uid": element.attrib["uid"],
+                    "m:Uid": int(element.attrib["uid"]),
                     "m:AddNdTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                 }
                 post(url=model_url, json=json)
-
 
                 # AddNd
                 for nd in element.findall("nd"):
@@ -56,10 +55,9 @@ def post_osc_file(osc_file: str, model_url: str):
                         "@type": "m:AddNd",
                         "beginDT": timestamp,
                         "endDT": timestamp,
-                        "m:Ref": nd.attrib["ref"]
+                        "m:Ref": int(nd.attrib["ref"])
                     }
                     post(url=model_url, json=json)
-
 
             elif element.tag == "relation":
                 json = {
@@ -67,12 +65,11 @@ def post_osc_file(osc_file: str, model_url: str):
                     "@type": "m:{}Relation".format(change.tag.title()),
                     "beginDT": timestamp,
                     "endDT": timestamp,
-                    "m:id": element.attrib["id"],
+                    "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
-                    "m:Uid": element.attrib["uid"]
+                    "m:Uid": int(element.attrib["uid"])
                 }
                 post(url=model_url, json=json)
-
 
                 # AddMember
                 for member in element.findall("member"):
@@ -81,7 +78,7 @@ def post_osc_file(osc_file: str, model_url: str):
                         "beginDT": timestamp,
                         "endDT": timestamp,
                         "m:Type": member.attrib["type"],
-                        "m:Ref": member.attrib["ref"],
+                        "m:Ref": int(member.attrib["ref"]),
                         "m:Role": member.attrib["role"],
                         "m:AddMemberTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                     }
@@ -98,7 +95,6 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:AddTagTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
                 }
                 post(url=model_url, json=json)
-
 
 
 def main(argv):
