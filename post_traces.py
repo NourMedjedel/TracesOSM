@@ -46,8 +46,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "m:id": int(element.attrib["id"]),
                     "m:User": element.attrib["user"],
                     "m:Uid": int(element.attrib["uid"]),
-                    "m:Version": int(element.attrib["version"]),
-                    "m:AddNdTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"])}
+                    "m:Version": int(element.attrib["version"])
                 }
                 post(url=model_url, json=json)
 
