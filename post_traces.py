@@ -25,7 +25,8 @@ def post_osc_file(osc_file: str, model_url: str):
                     'lat': element.attrib['lat'],
                     'lon': element.attrib['lon']
                 }
-                requests.post(url=model_url, json=json)
+                r = requests.post(url=model_url, json=json)
+                print(r.status_code, r.reason)
 
             # ChangeWay
             elif element.tag == 'way':
@@ -37,7 +38,8 @@ def post_osc_file(osc_file: str, model_url: str):
                     'user': element.attrib['user'],
                     'uid': element.attrib['uid']
                 }
-                requests.post(url=model_url, json=json)
+                r = requests.post(url=model_url, json=json)
+                print(r.status_code, r.reason)
 
                 # AddNd
                 for nd in element.findall('nd'):
@@ -47,7 +49,8 @@ def post_osc_file(osc_file: str, model_url: str):
                         'end': '{}'.format(timestamp),
                         'ref': nd.attrib['ref']
                     }
-                    requests.post(url=model_url, json=json)
+                    r = requests.post(url=model_url, json=json)
+                print(r.status_code, r.reason)
 
             elif element.tag == 'relation':
                 json = {
@@ -58,7 +61,8 @@ def post_osc_file(osc_file: str, model_url: str):
                     'user': element.attrib['user'],
                     'uid': element.attrib['uid']
                 }
-                requests.post(url=model_url, json=json)
+                r = requests.post(url=model_url, json=json)
+                print(r.status_code, r.reason)
 
                 # AddMember
                 for member in element.findall('member'):
@@ -70,7 +74,8 @@ def post_osc_file(osc_file: str, model_url: str):
                         'ref': member.attrib['ref'],
                         'role': member.attrib['role']
                     }
-                    requests.post(url=model_url, json=json)
+                    r = requests.post(url=model_url, json=json)
+                    print(r.status_code, r.reason)
 
             # AddTag
             for tag in element.findall('tag'):
@@ -81,12 +86,14 @@ def post_osc_file(osc_file: str, model_url: str):
                     'key': tag.attrib['k'],
                     'value': tag.attrib['v']
                 }
-                requests.post(url=model_url, json=json)
+                r = requests.post(url=model_url, json=json)
+                print(r.status_code, r.reason)
 
 
 def main(argv):
-    osc_file = argv[1]
-    model_url = argv[2]
+    print('osc_file: {}'.format(argv[1]))
+    print('model_url: {}'.format(argv[2]))
+    post_osc_file(osc_file=argv[1], model_url=argv[2])
 
 
 if __name__ == '__main__':
