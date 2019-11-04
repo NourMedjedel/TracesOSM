@@ -124,6 +124,5 @@ dmypy.json
 
 # fichiers osm
 done/
-donnees_bbox/
 donnees_bbox_old/
 donnees_osm/

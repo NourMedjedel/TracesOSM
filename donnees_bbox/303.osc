@@ -1,0 +1,3347 @@
+<osmChange generator="osmium/1.8.0" version="0.6">
+  <modify>
+    <node id="412111949" lat="45.7021561" lon="4.8209565" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    <node id="412112016" lat="45.702334" lon="4.8203995" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4" />
+    <node id="412112178" lat="45.7029571" lon="4.8208458" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="412112556" lat="45.7041921" lon="4.8207379" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="7">
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <modify>
+    <node id="490664308" lat="45.7038421" lon="4.8237465" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4" />
+    <node id="490664323" lat="45.703607" lon="4.8237542" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="6" />
+    <node id="490664338" lat="45.7032011" lon="4.8254585" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    <node id="490664343" lat="45.7031981" lon="4.8253889" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="490664349" lat="45.7032212" lon="4.8238373" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    </modify>
+  <modify>
+    <node id="613571081" lat="45.8144348" lon="5.0216646" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="5">
+      <tag k="crossing" v="unmarked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <modify>
+    <node id="733714338" lat="45.7044525" lon="4.8243085" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    <node id="733714396" lat="45.7033238" lon="4.8223513" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5" />
+  </modify>
+  <delete>
+    <node id="733714400" lat="45.7036684" lon="4.8237666" timestamp="2011-07-28T20:20:58Z" uid="10209" user="ryra6453" version="2" />
+    <node id="733714420" lat="45.7035818" lon="4.8231083" timestamp="2011-07-28T20:20:59Z" uid="10209" user="ryra6453" version="2" />
+    <node id="733714521" lat="45.7037577" lon="4.8230726" timestamp="2011-07-28T20:20:59Z" uid="10209" user="ryra6453" version="2" />
+  </delete>
+  <modify>
+    <node id="733714533" lat="45.7038069" lon="4.8237298" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+  </modify>
+  <modify>
+    <node id="929932154" lat="45.7031391" lon="4.8254775" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <modify>
+    <node id="986700118" lat="45.7791965" lon="4.8724426" timestamp="2019-07-09T23:52:01Z" uid="6383530" user="frosm" version="5">
+      <tag k="crossing" v="traffic_signals" />
+      <tag k="crossing_ref" v="zebra" />
+      <tag k="highway" v="crossing" />
+    </node>
+  </modify>
+  <modify>
+    <node id="1376492633" lat="45.7033311" lon="4.8227363" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4" />
+    <node id="1377105819" lat="45.7016113" lon="4.8210667" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105821" lat="45.7017004" lon="4.8210296" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105840" lat="45.7025075" lon="4.8205652" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105841" lat="45.7025009" lon="4.8208034" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105844" lat="45.702544" lon="4.8205012" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105851" lat="45.7025954" lon="4.8204762" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105874" lat="45.7028262" lon="4.8191401" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105883" lat="45.70286" lon="4.8206319" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105891" lat="45.7029451" lon="4.8205873" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    <node id="1377105923" lat="45.7031254" lon="4.8189033" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+  </modify>
+  <delete>
+    <node id="1377105924" lat="45.7031398" lon="4.819915" timestamp="2011-07-28T20:20:06Z" uid="10209" user="ryra6453" version="1" />
+    <node id="1377105930" lat="45.7031556" lon="4.8188265" timestamp="2011-07-28T20:20:06Z" uid="10209" user="ryra6453" version="1" />
+  </delete>
+  <modify>
+    <node id="1377105934" lat="45.7031796" lon="4.8191467" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+  </modify>
+  <delete>
+    <node id="1377105938" lat="45.7031961" lon="4.8192939" timestamp="2011-07-28T20:20:06Z" uid="10209" user="ryra6453" version="1" />
+  </delete>
+  <modify>
+    <node id="1377105940" lat="45.7031879" lon="4.8199439" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105941" lat="45.7032041" lon="4.8193967" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105943" lat="45.7032266" lon="4.8195111" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105948" lat="45.7035975" lon="4.820334" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+  </modify>
+  <delete>
+    <node id="1377105949" lat="45.703281" lon="4.8195715" timestamp="2011-07-28T20:20:07Z" uid="10209" user="ryra6453" version="1" />
+  </delete>
+  <modify>
+    <node id="1377105953" lat="45.7032172" lon="4.8199341" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105957" lat="45.7033443" lon="4.8189597" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+  </modify>
+  <delete>
+    <node id="1377105959" lat="45.7033539" lon="4.8196495" timestamp="2011-07-28T20:20:07Z" uid="10209" user="ryra6453" version="1" />
+  </delete>
+  <modify>
+    <node id="1377105963" lat="45.7033534" lon="4.8228119" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1377105970" lat="45.7033725" lon="4.8189982" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105976" lat="45.7034419" lon="4.8190928" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105980" lat="45.7034296" lon="4.8197636" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105981" lat="45.7034265" lon="4.8198485" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105984" lat="45.7035017" lon="4.8191061" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105985" lat="45.7034618" lon="4.8198108" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105992" lat="45.7034949" lon="4.8198" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377105998" lat="45.703586" lon="4.8197804" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377106007" lat="45.7036842" lon="4.8197827" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377106023" lat="45.7038384" lon="4.8236304" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1377106031" lat="45.7038668" lon="4.8238682" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1377106033" lat="45.7038825" lon="4.8241127" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1377106107" lat="45.7047103" lon="4.8197404" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3" />
+    <node id="1378440639" lat="45.703924" lon="4.8244404" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+  </modify>
+  <delete>
+    <node id="1378440640" lat="45.7041879" lon="4.8243551" timestamp="2011-07-30T08:16:46Z" uid="10209" user="ryra6453" version="1" />
+  </delete>
+  <modify>
+    <node id="1909627272" lat="45.703248" lon="4.8210818" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1909627273" lat="45.7033928" lon="4.8211091" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1909627281" lat="45.7038179" lon="4.8208168" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5" />
+    <node id="1909893948" lat="45.7013781" lon="4.8221091" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1909893951" lat="45.702786" lon="4.8211274" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1909893953" lat="45.7032459" lon="4.8209106" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+  </modify>
+  <delete>
+    <node id="1909893957" lat="45.7043464" lon="4.820648" timestamp="2012-09-11T12:35:07Z" uid="208829" user="G&#233;ov&#233;lo" version="1" />
+  </delete>
+  <modify>
+    <node id="1909893958" lat="45.7046652" lon="4.8206288" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+  </modify>
+  <delete>
+    <node id="1909893959" lat="45.7048201" lon="4.8206187" timestamp="2012-09-11T12:35:07Z" uid="208829" user="G&#233;ov&#233;lo" version="1" />
+    <node id="1909893960" lat="45.7050077" lon="4.8206427" timestamp="2012-09-11T12:35:07Z" uid="208829" user="G&#233;ov&#233;lo" version="1" />
+  </delete>
+  <modify>
+    <node id="1909916254" lat="45.7003024" lon="4.8228614" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1909916255" lat="45.7003311" lon="4.8229413" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1909916270" lat="45.7028831" lon="4.8209302" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="1909916288" lat="45.7039728" lon="4.820684" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="1909916290" lat="45.7052098" lon="4.8206878" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <modify>
+    <node id="2063023580" lat="45.7006168" lon="4.822652" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <tag k="highway" v="crossing" />
+    </node>
+  </modify>
+  <modify>
+    <node id="2093658048" lat="45.7736987" lon="4.8287107" timestamp="2019-07-10T08:36:31Z" uid="6823485" user="Spokester" version="5">
+      <tag k="addr:street" v="5 rue Sainte Clotilde" />
+      <tag k="amenity" v="restaurant" />
+      <tag k="cuisine" v="pizza" />
+      <tag k="name" v="Comme &#224; la maison" />
+      <tag k="phone" v="04 72 73 36 14" />
+      <tag k="website" v="https://website-559070167340460743912-restaurant.business.site/?utm_source=gmb&amp;utm_medium=referral" />
+    </node>
+  </modify>
+  <delete>
+    <node id="2179451164" lat="45.7048322" lon="4.8207564" timestamp="2016-04-19T15:28:55Z" uid="1167241" user="Jessy Bertrand" version="2" />
+  </delete>
+  <modify>
+    <node id="2179451165" lat="45.7051827" lon="4.8208191" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <modify>
+    <node id="2438523014" lat="45.8120522" lon="5.0220475" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="3">
+      <tag k="addr:housenumber" v="82" />
+      <tag k="addr:street" v="Rue de la Mairie" />
+      <tag k="amenity" v="restaurant" />
+      <tag k="cuisine" v="french" />
+      <tag k="name" v="Auberge de Thil" />
+      <tag k="phone" v="+33 4 78 06 19 90" />
+      <tag k="website" v="https://www.aubergedethil.fr/" />
+    </node>
+  </modify>
+  <delete>
+    <node id="2438523046" lat="45.8142837" lon="5.0220665" timestamp="2013-08-30T06:41:48Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="amenity" v="telephone" />
+      <tag k="payment:credit_cards" v="yes" />
+      <tag k="payment:telephone_cards" v="yes" />
+    </node>
+    <node id="2438523052" lat="45.8144617" lon="5.0218141" timestamp="2013-08-30T06:41:48Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="highway" v="stop" />
+    </node>
+    </delete>
+  <modify>
+    <node id="4126883324" lat="45.813595" lon="5.022158" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="3">
+      <tag k="name" v="Superette Vival" />
+      <tag k="note" v="Ancien b&#226;timent de mairie de Thil." />
+      <tag k="operator" v="Vival" />
+      <tag k="phone" v="+33 9 87 27 05 09" />
+      <tag k="shop" v="convenience" />
+    </node>
+    <node id="4126883325" lat="45.8142274" lon="5.0209804" timestamp="2019-07-10T18:59:08Z" uid="878284" user="Beno&#238;t Prieur" version="3">
+      <tag k="addr:housenumber" v="340" />
+      <tag k="addr:street" v="Rue de la Mairie" />
+      <tag k="amenity" v="townhall" />
+      <tag k="name" v="Mairie de Thil" />
+      <tag k="phone" v="+33 4 78 06 19 90" />
+      <tag k="website" v="http://www.thil.fr/" />
+      <tag k="wheelchair" v="yes" />
+    </node>
+    <node id="4127484664" lat="45.8146221" lon="5.0214354" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="2" />
+    <node id="4127515518" lat="45.8142464" lon="5.0210213" timestamp="2019-07-10T18:59:08Z" uid="878284" user="Beno&#238;t Prieur" version="2">
+      <tag k="emergency" v="defibrillator" />
+      <tag k="indoor" v="no" />
+    </node>
+    <node id="4133503011" lat="45.704759" lon="4.8206973" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="4133503012" lat="45.7050596" lon="4.8207493" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="4133503013" lat="45.7052544" lon="4.82078" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    <node id="4133503014" lat="45.7052951" lon="4.8207672" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    </modify>
+  <modify>
+    <node id="4958504749" lat="45.7048709" lon="4.8207555" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2" />
+    </modify>
+  <modify>
+    <node id="6185377511" lat="45.7539076" lon="4.8562597" timestamp="2019-07-10T10:13:54Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <tag k="crossing" v="uncontrolled" />
+      <tag k="crossing_ref" v="zebra" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6185377512" lat="45.7540148" lon="4.8562374" timestamp="2019-07-10T10:13:55Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <tag k="crossing" v="uncontrolled" />
+      <tag k="crossing_ref" v="zebra" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6185377513" lat="45.7539692" lon="4.8563198" timestamp="2019-07-10T10:13:55Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <tag k="crossing" v="uncontrolled" />
+      <tag k="crossing_ref" v="zebra" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6185377514" lat="45.7539563" lon="4.8561825" timestamp="2019-07-10T10:13:56Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <tag k="crossing" v="uncontrolled" />
+      <tag k="crossing_ref" v="zebra" />
+      <tag k="highway" v="crossing" />
+    </node>
+    </modify>
+  <delete>
+    <node id="6551653505" lat="45.7309381" lon="4.888129" timestamp="2019-06-16T20:27:25Z" uid="123781" user="Warny" version="1" />
+    <node id="6551653506" lat="45.7309985" lon="4.8881489" timestamp="2019-06-16T20:27:25Z" uid="123781" user="Warny" version="1" />
+  </delete>
+  <modify>
+    <node id="6551653507" lat="45.7309998" lon="4.88814" timestamp="2019-07-10T16:53:43Z" uid="161619" user="FvGordon" version="2" />
+  </modify>
+  <delete>
+    <node id="6551653508" lat="45.7311097" lon="4.8881856" timestamp="2019-06-16T20:27:25Z" uid="123781" user="Warny" version="1" />
+  </delete>
+  <delete>
+    <node id="6579719307" lat="45.7306788" lon="4.8881463" timestamp="2019-06-30T10:09:14Z" uid="7618263" user="Cl&#233;ment2000" version="1" />
+    <node id="6579719308" lat="45.7306788" lon="4.8881463" timestamp="2019-06-30T10:09:14Z" uid="7618263" user="Cl&#233;ment2000" version="1" />
+    <node id="6579719309" lat="45.7306713" lon="4.8881342" timestamp="2019-06-30T10:09:14Z" uid="7618263" user="Cl&#233;ment2000" version="1" />
+  </delete>
+  <create>
+    <node id="6601188874" lat="45.6110578" lon="5.1585958" timestamp="2019-07-09T21:50:21Z" uid="10142045" user="incogito" version="1" />
+    </create>
+  <create>
+    <node id="6601373362" lat="45.7792053" lon="4.8724388" timestamp="2019-07-09T23:52:01Z" uid="6383530" user="frosm" version="1">
+      <tag k="highway" v="traffic_signals" />
+      <tag k="traffic_signals:direction" v="backward" />
+    </node>
+    </create>
+  <create>
+    <node id="6601887936" lat="45.7685635" lon="4.8289429" timestamp="2019-07-10T06:55:51Z" uid="641880" user="natolh" version="1">
+      <tag k="contact:phone" v="+33 9 83 78 48 79" />
+      <tag k="contact:website" v="https://baroudeur-cycles.com/" />
+      <tag k="name" v="Baroudeur Cycles" />
+      <tag k="opening_hours" v="Mo off; Tu-Fr 09:00-12:00,14:00-19:00; Sa 09:00-12:00,14:00-18:00; Su off" />
+      <tag k="shop" v="bicycle" />
+      <tag k="wheelchair" v="no" />
+    </node>
+    <node id="6601940568" lat="45.7702913" lon="4.8625002" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="bench" />
+      <tag k="backrest" v="yes" />
+      <tag k="colour" v="brown" />
+      <tag k="material" v="wood" />
+      <tag k="seats" v="2" />
+    </node>
+    <node id="6601940569" lat="45.7702866" lon="4.8624158" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="bench" />
+      <tag k="backrest" v="yes" />
+      <tag k="colour" v="brown" />
+      <tag k="material" v="wood" />
+      <tag k="seats" v="2" />
+    </node>
+    <node id="6601940570" lat="45.7702725" lon="4.8623218" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="bench" />
+      <tag k="backrest" v="yes" />
+      <tag k="colour" v="brown" />
+      <tag k="material" v="wood" />
+      <tag k="seats" v="2" />
+    </node>
+    <node id="6601940571" lat="45.7702258" lon="4.8623878" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="bench" />
+      <tag k="backrest" v="yes" />
+      <tag k="colour" v="brown" />
+      <tag k="material" v="wood" />
+      <tag k="seats" v="2" />
+    </node>
+    <node id="6601940572" lat="45.7702354" lon="4.8624623" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="bench" />
+      <tag k="backrest" v="yes" />
+      <tag k="colour" v="brown" />
+      <tag k="material" v="wood" />
+      <tag k="seats" v="2" />
+    </node>
+    <node id="6601940573" lat="45.7702769" lon="4.862361" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="amenity" v="waste_basket" />
+      <tag k="colour" v="grey" />
+      <tag k="material" v="metal" />
+    </node>
+    <node id="6601940574" lat="45.7702785" lon="4.8623792" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="highway" v="street_lamp" />
+      <tag k="lamp_type" v="electric" />
+    </node>
+    <node id="6601940575" lat="45.7702902" lon="4.8624572" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="highway" v="street_lamp" />
+      <tag k="lamp_type" v="electric" />
+    </node>
+    <node id="6601940576" lat="45.7702485" lon="4.8624887" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="highway" v="street_lamp" />
+      <tag k="lamp_type" v="electric" />
+    </node>
+    <node id="6601940577" lat="45.7703002" lon="4.8625476" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="highway" v="street_lamp" />
+      <tag k="lamp_type" v="electric" />
+    </node>
+    <node id="6601940578" lat="45.7703195" lon="4.862457" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="diameter" v="500" />
+      <tag k="leaf_type" v="broadleaved" />
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6601940579" lat="45.7703152" lon="4.8623746" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="diameter" v="500" />
+      <tag k="leaf_type" v="broadleaved" />
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6601940580" lat="45.7703127" lon="4.8622983" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="diameter" v="500" />
+      <tag k="leaf_type" v="broadleaved" />
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6601940581" lat="45.7702333" lon="4.8623449" timestamp="2019-07-10T07:07:30Z" uid="1728121" user="LadyXia" version="1">
+      <tag k="diameter" v="500" />
+      <tag k="leaf_type" v="broadleaved" />
+      <tag k="natural" v="tree" />
+    </node>
+    </create>
+  <modify>
+    <node id="6602084250" lat="45.7296118" lon="4.837774" timestamp="2019-07-10T14:44:53Z" uid="593214" user="gileri" version="2">
+      <tag k="name" v="Point Midi batterie" />
+      <tag k="shop" v="car_parts" />
+    </node>
+  </modify>
+  <create>
+    <node id="6602095612" lat="45.7294896" lon="4.8377328" timestamp="2019-07-10T08:20:15Z" uid="593214" user="gileri" version="1">
+      <tag k="name" v="Art&amp;D&#233;tente Coiffure" />
+      <tag k="shop" v="hairdresser" />
+    </node>
+    <node id="6602103321" lat="45.7293379" lon="4.8377122" timestamp="2019-07-10T08:29:02Z" uid="8359318" user="Skwaloo" version="1">
+      <tag k="amenity" v="post_box" />
+    </node>
+    </create>
+  <modify>
+    <node id="6602113487" lat="45.729191" lon="4.8376613" timestamp="2019-07-10T14:45:40Z" uid="593214" user="gileri" version="2">
+      <tag k="description" v="Assurance" />
+      <tag k="name" v="april" />
+      <tag k="office" v="insurance" />
+    </node>
+  </modify>
+  <create>
+    <node id="6602115266" lat="45.7292771" lon="4.8376662" timestamp="2019-07-10T08:30:51Z" uid="593214" user="gileri" version="1">
+      <tag k="amenity" v="restaurant" />
+      <tag k="name" v="La Pause Et Vous" />
+    </node>
+    </create>
+  <create>
+    <node id="6602297735" lat="45.7569864" lon="4.8583154" timestamp="2019-07-10T10:28:02Z" uid="1151930" user="Ludovic Drouard" version="1">
+      <tag k="amenity" v="restaurant" />
+      <tag k="name" v="Le Scuzi" />
+    </node>
+    </create>
+  <create>
+    <node id="6602333116" lat="45.7020003" lon="4.8209669" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333117" lat="45.7005925" lon="4.8228559" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333118" lat="45.7005925" lon="4.8225615" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="barrier" v="cycle_barrier" />
+      <tag k="foot" v="yes" />
+    </node>
+    <node id="6602333119" lat="45.7006454" lon="4.8227372" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333120" lat="45.7026114" lon="4.8207148" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="direction" v="backward" />
+      <tag k="highway" v="stop" />
+    </node>
+    <node id="6602333121" lat="45.7026278" lon="4.8208027" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333122" lat="45.7026643" lon="4.8208208" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333123" lat="45.7027566" lon="4.8209146" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333124" lat="45.7027767" lon="4.8209723" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333125" lat="45.7025636" lon="4.8210917" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333126" lat="45.7025236" lon="4.820872" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333127" lat="45.7025974" lon="4.8208429" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333128" lat="45.70264" lon="4.8208979" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333129" lat="45.7026536" lon="4.8209643" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333130" lat="45.7026531" lon="4.8210414" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333131" lat="45.7026273" lon="4.8211084" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333132" lat="45.702588" lon="4.8210709" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333133" lat="45.7025936" lon="4.821146" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333134" lat="45.702506" lon="4.821207" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333135" lat="45.702448" lon="4.8209019" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333136" lat="45.7025758" lon="4.820747" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333137" lat="45.7027987" lon="4.8210058" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333138" lat="45.7027748" lon="4.8210568" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333139" lat="45.7028067" lon="4.8212077" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333140" lat="45.7030274" lon="4.8207712" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333141" lat="45.7029178" lon="4.8207056" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333142" lat="45.7028616" lon="4.8206793" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333143" lat="45.7032338" lon="4.8208536" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333144" lat="45.7031968" lon="4.8208395" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="barrier" v="block" />
+      <tag k="bicycle" v="yes" />
+      <tag k="foot" v="yes" />
+      <tag k="material" v="stone" />
+    </node>
+    <node id="6602333145" lat="45.7031134" lon="4.8208181" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333146" lat="45.7030441" lon="4.8207812" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="barrier" v="block" />
+      <tag k="bicycle" v="yes" />
+      <tag k="foot" v="yes" />
+      <tag k="material" v="stone" />
+    </node>
+    <node id="6602333147" lat="45.7032628" lon="4.8210186" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333148" lat="45.7032399" lon="4.8211138" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333149" lat="45.7031837" lon="4.8211379" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333150" lat="45.7031504" lon="4.8211433" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333151" lat="45.70326" lon="4.8209951" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333152" lat="45.7033209" lon="4.8211138" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333153" lat="45.7032368" lon="4.8204593" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333154" lat="45.7032438" lon="4.8205053" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333155" lat="45.7036544" lon="4.8204188" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333156" lat="45.7036304" lon="4.8204238" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333157" lat="45.7040664" lon="4.8203333" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333158" lat="45.7040997" lon="4.820521" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="access" v="private" />
+      <tag k="barrier" v="lift_gate" />
+      <tag k="foot" v="yes" />
+    </node>
+    <node id="6602333159" lat="45.7041189" lon="4.8206777" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333160" lat="45.7040945" lon="4.8204204" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333161" lat="45.704465" lon="4.8202951" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333162" lat="45.70485" lon="4.8203131" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333163" lat="45.7052062" lon="4.8207323" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333164" lat="45.7038215" lon="4.820755" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333165" lat="45.703903" lon="4.8206934" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333166" lat="45.704191" lon="4.8206746" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333167" lat="45.7045637" lon="4.8206457" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333168" lat="45.7051875" lon="4.8207732" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602333169" lat="45.7044651" lon="4.8206492" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333170" lat="45.7044602" lon="4.8204929" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="access" v="private" />
+      <tag k="barrier" v="lift_gate" />
+      <tag k="foot" v="yes" />
+    </node>
+    <node id="6602333171" lat="45.7044598" lon="4.8203916" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333172" lat="45.7044841" lon="4.8199464" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333173" lat="45.7045108" lon="4.819888" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333174" lat="45.7048447" lon="4.8198988" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333175" lat="45.7048527" lon="4.8205183" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="access" v="private" />
+      <tag k="barrier" v="lift_gate" />
+      <tag k="foot" v="yes" />
+    </node>
+    <node id="6602333176" lat="45.7048547" lon="4.8206375" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333177" lat="45.7036459" lon="4.8203614" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333178" lat="45.7036231" lon="4.8203145" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333179" lat="45.7035532" lon="4.8202622" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333180" lat="45.7032385" lon="4.8204365" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333181" lat="45.7032386" lon="4.8204733" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333182" lat="45.7032557" lon="4.8205838" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333183" lat="45.7044054" lon="4.8199041" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602333184" lat="45.702463" lon="4.8192121" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    </create>
+  <create>
+    <node id="6602339685" lat="45.7026854" lon="4.819143" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339686" lat="45.7028058" lon="4.819074" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339687" lat="45.7028132" lon="4.8189975" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339688" lat="45.7027995" lon="4.8189481" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="barrier" v="turnstile" />
+      <tag k="bicycle" v="no" />
+      <tag k="foot" v="yes" />
+    </node>
+    <node id="6602339689" lat="45.7027813" lon="4.8188817" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339690" lat="45.7031378" lon="4.8200275" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339691" lat="45.7031181" lon="4.8200892" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339692" lat="45.7031265" lon="4.8201415" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339693" lat="45.7032703" lon="4.8203252" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339694" lat="45.7034155" lon="4.820226" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339695" lat="45.7034323" lon="4.8199765" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339696" lat="45.7031902" lon="4.8187172" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339697" lat="45.7033162" lon="4.8196116" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339698" lat="45.7034543" lon="4.8194844" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339699" lat="45.7034689" lon="4.8194455" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339700" lat="45.7034066" lon="4.8190646" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339701" lat="45.7038237" lon="4.8248869" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339702" lat="45.7037538" lon="4.8243288" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339703" lat="45.7039056" lon="4.8242937" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339704" lat="45.7039738" lon="4.8248483" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339705" lat="45.7036093" lon="4.824942" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339706" lat="45.7036571" lon="4.8243512" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339707" lat="45.7036112" lon="4.8238268" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339708" lat="45.7035728" lon="4.8237973" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339709" lat="45.7040443" lon="4.8253719" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339710" lat="45.7040896" lon="4.8252966" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339711" lat="45.7040079" lon="4.8251274" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339712" lat="45.7039319" lon="4.825235" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339713" lat="45.7039257" lon="4.8244544" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339714" lat="45.7037743" lon="4.8244924" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339715" lat="45.7037579" lon="4.8243617" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339716" lat="45.7038181" lon="4.8248422" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339717" lat="45.7036865" lon="4.8243643" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339718" lat="45.7037495" lon="4.8248803" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339719" lat="45.703889" lon="4.8248454" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339720" lat="45.7038261" lon="4.8243294" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339721" lat="45.7036187" lon="4.8241427" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="description" v="Une croix grav&#233;e et un b&#233;nitier creus&#233; au sommet entre deux anneaux d'amarrage. Son emplacement d'origine &#233;tait au bord du fleuve, au port du Noyer. D&#233;plac&#233;e en 1986." />
+      <tag k="historic" v="stone" />
+      <tag k="name" v="La Pierre B&#233;nite" />
+      <tag k="source" v="Journal Le Progr&#232;s (&#233;dition Lyon, 10 juillet 2019);sites web histoire locale" />
+    </node>
+    <node id="6602339722" lat="45.7033373" lon="4.8220827" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="amenity" v="post_box" />
+      <tag k="drive_through" v="yes" />
+    </node>
+    <node id="6602339723" lat="45.7036763" lon="4.8232411" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339724" lat="45.7036749" lon="4.8232257" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339725" lat="45.7035403" lon="4.8221171" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="barrier" v="gate" />
+    </node>
+    <node id="6602339726" lat="45.7035502" lon="4.8221452" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339727" lat="45.7035313" lon="4.8220912" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339728" lat="45.7033331" lon="4.8220573" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339729" lat="45.7033294" lon="4.8220017" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339730" lat="45.7033228" lon="4.821893" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339731" lat="45.7033766" lon="4.8220244" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339732" lat="45.7036654" lon="4.8231198" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339733" lat="45.7036599" lon="4.8230531" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339734" lat="45.7037218" lon="4.8237485" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339735" lat="45.7037239" lon="4.823772" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339736" lat="45.7036623" lon="4.8230848" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339737" lat="45.7036355" lon="4.8227355" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339738" lat="45.7036253" lon="4.8227052" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339739" lat="45.7037076" lon="4.8227166" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339740" lat="45.7037303" lon="4.8227036" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339741" lat="45.7035454" lon="4.8228185" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339742" lat="45.7037571" lon="4.8230663" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339743" lat="45.7035802" lon="4.8231009" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339744" lat="45.7037723" lon="4.8230633" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339745" lat="45.7035646" lon="4.823104" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339746" lat="45.7033068" lon="4.8237316" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339747" lat="45.703289" lon="4.8238027" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339748" lat="45.703482" lon="4.8237585" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339749" lat="45.7034993" lon="4.8236907" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339750" lat="45.7032029" lon="4.8243767" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339751" lat="45.7031935" lon="4.8250097" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339752" lat="45.7032071" lon="4.8255227" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    <node id="6602339753" lat="45.7031987" lon="4.8254154" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="direction" v="forward" />
+      <tag k="highway" v="stop" />
+    </node>
+    <node id="6602339754" lat="45.7032708" lon="4.8254382" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339755" lat="45.7035766" lon="4.8253456" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339756" lat="45.7032614" lon="4.8238349" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339757" lat="45.7036028" lon="4.823674" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339758" lat="45.7035705" lon="4.8237638" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6602339759" lat="45.7036403" lon="4.82379" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1" />
+    </create>
+  <create>
+    <node id="6602906762" lat="45.6654926" lon="5.1055971" timestamp="2019-07-10T13:58:09Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602906763" lat="45.6644272" lon="5.1053641" timestamp="2019-07-10T13:58:09Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602906764" lat="45.6652189" lon="5.0979541" timestamp="2019-07-10T13:58:09Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602906765" lat="45.6662843" lon="5.0981871" timestamp="2019-07-10T13:58:09Z" uid="3909835" user="laurent-38" version="1" />
+    </create>
+  <create>
+    <node id="6602935831" lat="45.6590203" lon="5.0979787" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602935832" lat="45.6583453" lon="5.0979457" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602935833" lat="45.6583263" lon="5.0987317" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602935834" lat="45.6576635" lon="5.0986991" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602935835" lat="45.6577196" lon="5.0964353" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    <node id="6602935836" lat="45.6590557" lon="5.0965004" timestamp="2019-07-10T14:04:52Z" uid="3909835" user="laurent-38" version="1" />
+    </create>
+  <create>
+    <node id="6603383080" lat="45.815646" lon="5.0213255" timestamp="2019-07-10T16:49:57Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603383081" lat="45.8155997" lon="5.0213377" timestamp="2019-07-10T16:49:57Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603383082" lat="45.8156278" lon="5.0213583" timestamp="2019-07-10T16:49:57Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="highway" v="street_lamp" />
+    </node>
+    <node id="6603395479" lat="45.8158902" lon="5.0216661" timestamp="2019-07-10T16:48:17Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="amenity" v="waste_basket" />
+    </node>
+    <node id="6603395480" lat="45.8159408" lon="5.0216672" timestamp="2019-07-10T16:48:17Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603395481" lat="45.815901" lon="5.0215379" timestamp="2019-07-10T16:48:17Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603395482" lat="45.8156986" lon="5.0216481" timestamp="2019-07-10T16:48:17Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="highway" v="street_lamp" />
+      <tag k="ref" v="EP 227" />
+    </node>
+    <node id="6603395483" lat="45.8154485" lon="5.0213447" timestamp="2019-07-10T16:48:17Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603428858" lat="45.8155178" lon="5.0216043" timestamp="2019-07-10T16:50:47Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="highway" v="street_lamp" />
+    </node>
+    </create>
+  <create>
+    <node id="6603636783" lat="45.8144546" lon="5.021846" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="highway" v="stop" />
+    </node>
+    <node id="6603636784" lat="45.8115894" lon="5.0212128" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643182" lat="45.8146076" lon="5.0213787" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="crossing" v="marked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6603643183" lat="45.8146442" lon="5.0215175" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643184" lat="45.8145318" lon="5.0215905" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643785" lat="45.8145042" lon="5.0216592" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643786" lat="45.8141269" lon="5.022015" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="crossing" v="marked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6603643787" lat="45.814338" lon="5.0217532" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643788" lat="45.8142829" lon="5.0217832" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643789" lat="45.8142361" lon="5.0218006" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643790" lat="45.8142087" lon="5.0214886" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643791" lat="45.814347" lon="5.0213537" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643792" lat="45.8143221" lon="5.0210104" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643793" lat="45.8142721" lon="5.0210467" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643794" lat="45.8142783" lon="5.0211618" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643795" lat="45.8143279" lon="5.0211167" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643796" lat="45.8143269" lon="5.0210985" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643797" lat="45.8140393" lon="5.021889" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643798" lat="45.8139713" lon="5.0219151" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643799" lat="45.8139136" lon="5.0219242" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643800" lat="45.8138725" lon="5.0219535" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643801" lat="45.8137979" lon="5.0219607" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="crossing" v="marked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6603643802" lat="45.8134618" lon="5.0219641" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="crossing" v="marked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6603643803" lat="45.813355" lon="5.0218652" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="crossing" v="marked" />
+      <tag k="highway" v="crossing" />
+    </node>
+    <node id="6603643804" lat="45.8136764" lon="5.0220031" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643805" lat="45.8136129" lon="5.0220166" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="natural" v="tree" />
+    </node>
+    <node id="6603643806" lat="45.814597" lon="5.0210066" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643807" lat="45.8145577" lon="5.0210062" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643808" lat="45.8145572" lon="5.0211234" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603643809" lat="45.8145965" lon="5.0211237" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    </create>
+  <create>
+    <node id="6603649385" lat="45.811554" lon="5.0212016" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603649386" lat="45.8115386" lon="5.0213013" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    <node id="6603649387" lat="45.811574" lon="5.0213125" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1" />
+    </create>
+  <create>
+    <node id="6603699298" lat="45.8142088" lon="5.0210439" timestamp="2019-07-10T18:59:08Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <tag k="amenity" v="bicycle_parking" />
+      <tag k="bicycle_parking" v="rack" />
+      <tag k="capacity" v="6" />
+      <tag k="covered" v="no" />
+    </node>
+    </create>
+  <modify>
+    <way id="8105045" timestamp="2019-07-09T23:52:01Z" uid="6383530" user="frosm" version="21">
+      <nd ref="27512831" />
+      <nd ref="27512832" />
+      <nd ref="986700118" />
+      <nd ref="6601373362" />
+      <nd ref="205310558" />
+      <nd ref="1424023799" />
+      <nd ref="1424023798" />
+      <nd ref="1445330721" />
+      <nd ref="1350157133" />
+      <nd ref="60728442" />
+      <nd ref="1350157134" />
+      <nd ref="2801030603" />
+      <nd ref="33023159" />
+      <tag k="highway" v="residential" />
+      <tag k="maxspeed" v="30" />
+      <tag k="name" v="Avenue Gaston Berger" />
+      <tag k="surface" v="asphalt" />
+      <tag k="wheelchair" v="limited" />
+    </way>
+    <way id="10592476" timestamp="2019-07-10T10:13:52Z" uid="1151930" user="Ludovic Drouard" version="10">
+      <nd ref="92375972" />
+      <nd ref="975886496" />
+      <tag k="cycleway:both" v="no" />
+      <tag k="highway" v="residential" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed:type" v="FR:urban" />
+      <tag k="name" v="Place Pierre Renaudel" />
+      <tag k="oneway" v="yes" />
+      <tag k="sidewalk" v="left" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="40486860" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="6">
+      <nd ref="490664305" />
+      <nd ref="4645286979" />
+      <nd ref="6602339709" />
+      <nd ref="733714345" />
+      <nd ref="490664306" />
+      <nd ref="6602339711" />
+      <nd ref="6602339704" />
+      <nd ref="6602339713" />
+      <nd ref="1378440639" />
+      <nd ref="6602339703" />
+      <nd ref="1377106033" />
+      <nd ref="1377106031" />
+      <nd ref="490664308" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Lucie Aubrac" />
+    </way>
+    <way id="40486861" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="8">
+      <nd ref="490664269" />
+      <nd ref="6602339741" />
+      <nd ref="6602339745" />
+      <nd ref="6602339757" />
+      <nd ref="490664323" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Place Jean Jaur&#232;s" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="40486863" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="6">
+      <nd ref="490664338" />
+      <nd ref="6602339752" />
+      <nd ref="733714443" />
+      <nd ref="733714531" />
+      <nd ref="4960273942" />
+      <nd ref="733714330" />
+      <nd ref="733714370" />
+      <nd ref="733714495" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue de la R&#233;publique" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="40486865" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5">
+      <nd ref="490664323" />
+      <nd ref="6602339758" />
+      <nd ref="6602339756" />
+      <nd ref="490664349" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Paul Bert" />
+      <tag k="oneway" v="yes" />
+    </way>
+    </modify>
+  <modify>
+    <way id="59164754" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="733714345" />
+      <nd ref="6602339710" />
+      <nd ref="733714410" />
+      <nd ref="733714265" />
+      <nd ref="733714338" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Impasse des &#201;coles" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre ; mise &#224; jour : 2010" />
+    </way>
+    <way id="59164769" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="733714412" />
+      <nd ref="6602339739" />
+      <nd ref="733714496" />
+      <nd ref="733714273" />
+      <nd ref="6602339737" />
+      <nd ref="733714484" />
+      <nd ref="733714263" />
+      <nd ref="733714374" />
+      <nd ref="6602339743" />
+      <nd ref="733714453" />
+      <nd ref="733714524" />
+      <nd ref="733714337" />
+      <nd ref="6602339734" />
+      <nd ref="733714533" />
+      <nd ref="733714334" />
+      <nd ref="733714415" />
+      <nd ref="6602339742" />
+      <nd ref="733714412" />
+      <tag k="area" v="yes" />
+      <tag k="highway" v="pedestrian" />
+      <tag k="name" v="Place Jean Jaur&#232;s" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre ; mise &#224; jour : 2010" />
+    </way>
+    <way id="59164771" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="490664306" />
+      <nd ref="6602339712" />
+      <nd ref="6602339755" />
+      <nd ref="6602339754" />
+      <nd ref="490664338" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Jean Santopietro" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre ; mise &#224; jour : 2010" />
+    </way>
+    <way id="59164773" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5">
+      <nd ref="412112553" />
+      <nd ref="6602333150" />
+      <nd ref="1376492632" />
+      <nd ref="1377105951" />
+      <nd ref="733714357" />
+      <nd ref="733714396" />
+      <nd ref="1376492633" />
+      <nd ref="1377105963" />
+      <nd ref="733714447" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Voltaire" />
+      <tag k="oneway" v="yes" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre ; mise &#224; jour : 2010" />
+    </way>
+    <way id="62274606" timestamp="2019-07-10T10:13:39Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778125735" />
+      <nd ref="778127331" />
+      <nd ref="778124435" />
+      <nd ref="778127129" />
+      <nd ref="778125735" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274637" timestamp="2019-07-10T10:13:56Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="778125340" />
+      <nd ref="778125631" />
+      <nd ref="778122644" />
+      <nd ref="778124687" />
+      <nd ref="778125340" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="5" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274638" timestamp="2019-07-10T10:13:39Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778124622" />
+      <nd ref="778124071" />
+      <nd ref="778126576" />
+      <nd ref="778124859" />
+      <nd ref="778124622" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274644" timestamp="2019-07-10T10:13:40Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778127203" />
+      <nd ref="778122563" />
+      <nd ref="778126698" />
+      <nd ref="778125867" />
+      <nd ref="778125444" />
+      <nd ref="778127203" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274645" timestamp="2019-07-10T10:13:40Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778124119" />
+      <nd ref="778126779" />
+      <nd ref="778122563" />
+      <nd ref="778127203" />
+      <nd ref="778124119" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274647" timestamp="2019-07-10T10:13:41Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778125867" />
+      <nd ref="778126698" />
+      <nd ref="778122945" />
+      <nd ref="778127335" />
+      <nd ref="778126857" />
+      <nd ref="778124040" />
+      <nd ref="778123303" />
+      <nd ref="778123930" />
+      <nd ref="778125545" />
+      <nd ref="778124722" />
+      <nd ref="778123089" />
+      <nd ref="778125867" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274797" timestamp="2019-07-10T10:13:41Z" uid="593214" user="gileri" version="4">
+      <nd ref="778127160" />
+      <nd ref="778124413" />
+      <nd ref="778124781" />
+      <nd ref="778124251" />
+      <nd ref="778124036" />
+      <nd ref="778124498" />
+      <nd ref="778127160" />
+      <tag k="addr:city" v="Lyon" />
+      <tag k="building" v="retail" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274799" timestamp="2019-07-10T10:13:42Z" uid="593214" user="gileri" version="4">
+      <nd ref="778124413" />
+      <nd ref="778125121" />
+      <nd ref="778123715" />
+      <nd ref="778124781" />
+      <nd ref="778124413" />
+      <tag k="addr:city" v="Lyon" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274810" timestamp="2019-07-10T10:13:42Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778124498" />
+      <nd ref="778124036" />
+      <nd ref="778124934" />
+      <nd ref="778126721" />
+      <nd ref="778127125" />
+      <nd ref="778125120" />
+      <nd ref="778122389" />
+      <nd ref="778122785" />
+      <nd ref="778124498" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62274814" timestamp="2019-07-10T10:13:43Z" uid="1151930" user="Ludovic Drouard" version="4">
+      <nd ref="778125635" />
+      <nd ref="778124589" />
+      <nd ref="778124198" />
+      <nd ref="778123504" />
+      <nd ref="778125976" />
+      <nd ref="778124251" />
+      <nd ref="778124781" />
+      <nd ref="778123715" />
+      <nd ref="2932359857" />
+      <nd ref="778125635" />
+      <tag k="building" v="warehouse" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275009" timestamp="2019-07-10T10:13:57Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="778126495" />
+      <nd ref="778123575" />
+      <nd ref="778126950" />
+      <nd ref="778122308" />
+      <nd ref="778124148" />
+      <nd ref="778124076" />
+      <nd ref="778123922" />
+      <nd ref="778126141" />
+      <nd ref="778125674" />
+      <nd ref="778127181" />
+      <nd ref="778124495" />
+      <nd ref="778125123" />
+      <nd ref="778126495" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="6" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275011" timestamp="2019-07-10T10:13:43Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778126456" />
+      <nd ref="778123996" />
+      <nd ref="778127249" />
+      <nd ref="778125133" />
+      <nd ref="778127372" />
+      <nd ref="778126456" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275012" timestamp="2019-07-10T10:13:44Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778123139" />
+      <nd ref="778126456" />
+      <nd ref="778127372" />
+      <nd ref="778122596" />
+      <nd ref="778123139" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275013" timestamp="2019-07-10T10:13:44Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778126959" />
+      <nd ref="778122729" />
+      <nd ref="778126729" />
+      <nd ref="778126061" />
+      <nd ref="778126819" />
+      <nd ref="778123752" />
+      <nd ref="778124920" />
+      <nd ref="778124642" />
+      <nd ref="778126959" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275017" timestamp="2019-07-10T10:13:45Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778125698" />
+      <nd ref="778127193" />
+      <nd ref="778127098" />
+      <nd ref="778126772" />
+      <nd ref="778124725" />
+      <nd ref="778126888" />
+      <nd ref="778126982" />
+      <nd ref="778124438" />
+      <nd ref="778124745" />
+      <nd ref="778125978" />
+      <nd ref="778127312" />
+      <nd ref="778124920" />
+      <nd ref="778123752" />
+      <nd ref="778124428" />
+      <nd ref="778124377" />
+      <nd ref="778125698" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275023" timestamp="2019-07-10T10:13:45Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="778126299" />
+      <nd ref="778124388" />
+      <nd ref="778126744" />
+      <nd ref="778123079" />
+      <nd ref="778124893" />
+      <nd ref="778126299" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275025" timestamp="2019-07-10T10:13:46Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778125006" />
+      <nd ref="778123275" />
+      <nd ref="778124464" />
+      <nd ref="778125485" />
+      <nd ref="778122858" />
+      <nd ref="778125472" />
+      <nd ref="778125006" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275029" timestamp="2019-07-10T10:13:46Z" uid="1151930" user="Ludovic Drouard" version="4">
+      <nd ref="778123529" />
+      <nd ref="778123664" />
+      <nd ref="778126192" />
+      <nd ref="778126472" />
+      <nd ref="778123529" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275030" timestamp="2019-07-10T10:13:47Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778127021" />
+      <nd ref="778122314" />
+      <nd ref="778123333" />
+      <nd ref="778123689" />
+      <nd ref="778125565" />
+      <nd ref="778124700" />
+      <nd ref="778125214" />
+      <nd ref="778127352" />
+      <nd ref="778124953" />
+      <nd ref="778124124" />
+      <nd ref="778126432" />
+      <nd ref="778125393" />
+      <nd ref="778125099" />
+      <nd ref="778122564" />
+      <nd ref="778125698" />
+      <nd ref="778124377" />
+      <nd ref="778127021" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275065" timestamp="2019-07-10T10:13:57Z" uid="1151930" user="Ludovic Drouard" version="5">
+      <nd ref="778126950" />
+      <nd ref="778125052" />
+      <nd ref="778125856" />
+      <nd ref="778125374" />
+      <nd ref="778122308" />
+      <nd ref="778126950" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="6" />
+      <tag k="source" v="survey" />
+    </way>
+    <way id="62275072" timestamp="2019-07-10T10:13:47Z" uid="1151930" user="Ludovic Drouard" version="4">
+      <nd ref="778125052" />
+      <nd ref="778124647" />
+      <nd ref="778126762" />
+      <nd ref="778126273" />
+      <nd ref="778125856" />
+      <nd ref="778125052" />
+      <tag k="addr:city" v="Lyon" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="survey" />
+    </way>
+    <way id="62275073" timestamp="2019-07-10T10:13:48Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778122715" />
+      <nd ref="778124720" />
+      <nd ref="778124489" />
+      <nd ref="778125811" />
+      <nd ref="778124545" />
+      <nd ref="778122694" />
+      <nd ref="778127271" />
+      <nd ref="778124900" />
+      <nd ref="778122715" />
+      <tag k="building" v="service" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275088" timestamp="2019-07-10T10:13:48Z" uid="1151930" user="Ludovic Drouard" version="12">
+      <nd ref="778123806" />
+      <nd ref="778123706" />
+      <nd ref="778125136" />
+      <nd ref="778122584" />
+      <nd ref="778123676" />
+      <nd ref="778123237" />
+      <nd ref="2932574075" />
+      <nd ref="778122930" />
+      <nd ref="778126129" />
+      <nd ref="778122896" />
+      <nd ref="778123806" />
+      <tag k="building" v="retail" />
+      <tag k="leisure" v="sports_centre" />
+      <tag k="name" v="MRoc Part-Dieu" />
+      <tag k="old_name" v="S.L.I.B" />
+      <tag k="opening_hours" v="Mo-Su 9:00-24:00" />
+      <tag k="sport" v="climbing;bouldering" />
+    </way>
+    <way id="62275098" timestamp="2019-07-10T10:13:49Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778122440" />
+      <nd ref="778125805" />
+      <nd ref="778125464" />
+      <nd ref="778124161" />
+      <nd ref="778125519" />
+      <nd ref="778123057" />
+      <nd ref="778127026" />
+      <nd ref="778124854" />
+      <nd ref="778123860" />
+      <nd ref="778124737" />
+      <nd ref="778124212" />
+      <nd ref="778122591" />
+      <nd ref="778122440" />
+      <tag k="building" v="garages" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275123" timestamp="2019-07-10T10:13:58Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="778124948" />
+      <nd ref="778125448" />
+      <nd ref="778123571" />
+      <nd ref="778124384" />
+      <nd ref="778123514" />
+      <nd ref="778125771" />
+      <nd ref="778127309" />
+      <nd ref="778122729" />
+      <nd ref="778126959" />
+      <nd ref="778125414" />
+      <nd ref="778126437" />
+      <nd ref="778125549" />
+      <nd ref="778124948" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="6" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275153" timestamp="2019-07-10T10:13:58Z" uid="593214" user="gileri" version="5">
+      <nd ref="778122359" />
+      <nd ref="778124741" />
+      <nd ref="778124891" />
+      <nd ref="778124468" />
+      <nd ref="778122759" />
+      <nd ref="778123815" />
+      <nd ref="778124855" />
+      <nd ref="778127175" />
+      <nd ref="778123659" />
+      <nd ref="778125424" />
+      <nd ref="778127278" />
+      <nd ref="778124667" />
+      <nd ref="778123782" />
+      <nd ref="778122359" />
+      <tag k="addr:city" v="Lyon" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="2" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275161" timestamp="2019-07-10T10:13:49Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778122953" />
+      <nd ref="778123838" />
+      <nd ref="778125467" />
+      <nd ref="778123496" />
+      <nd ref="778126052" />
+      <nd ref="778122355" />
+      <nd ref="778123655" />
+      <nd ref="778122988" />
+      <nd ref="778123164" />
+      <nd ref="778122359" />
+      <nd ref="778123782" />
+      <nd ref="778124768" />
+      <nd ref="778125216" />
+      <nd ref="778122953" />
+      <tag k="building" v="retail" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275166" timestamp="2019-07-10T10:13:50Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778126089" />
+      <nd ref="778125793" />
+      <nd ref="778123756" />
+      <nd ref="778124448" />
+      <nd ref="778123881" />
+      <nd ref="778123054" />
+      <nd ref="778127276" />
+      <nd ref="778123624" />
+      <nd ref="778124211" />
+      <nd ref="778123839" />
+      <nd ref="778122961" />
+      <nd ref="778125311" />
+      <nd ref="778126089" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275167" timestamp="2019-07-10T10:13:50Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778124893" />
+      <nd ref="778123079" />
+      <nd ref="778124707" />
+      <nd ref="778122297" />
+      <nd ref="778124893" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275168" timestamp="2019-07-10T10:13:51Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778124197" />
+      <nd ref="778122309" />
+      <nd ref="778124963" />
+      <nd ref="778125056" />
+      <nd ref="778124197" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275169" timestamp="2019-07-10T10:13:51Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="778126738" />
+      <nd ref="778125311" />
+      <nd ref="778124153" />
+      <nd ref="778124233" />
+      <nd ref="778126738" />
+      <tag k="building" v="apartments" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="62275179" timestamp="2019-07-10T10:13:59Z" uid="1151930" user="Ludovic Drouard" version="7">
+      <nd ref="778125784" />
+      <nd ref="778125173" />
+      <nd ref="778122839" />
+      <nd ref="778126431" />
+      <nd ref="778126237" />
+      <nd ref="3514086810" />
+      <nd ref="778126511" />
+      <nd ref="778122706" />
+      <nd ref="778123367" />
+      <nd ref="778125854" />
+      <nd ref="778125784" />
+      <tag k="building" v="apartments" />
+      <tag k="building:levels" v="6" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    </modify>
+  <modify>
+    <way id="67482331" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="814643621" />
+      <nd ref="814636930" />
+      <nd ref="814631141" />
+      <nd ref="4958604124" />
+      <nd ref="814639201" />
+      <nd ref="6602339726" />
+      <nd ref="814636940" />
+      <nd ref="814640520" />
+      <nd ref="4958604128" />
+      <nd ref="814633804" />
+      <nd ref="4958604129" />
+      <nd ref="4958604130" />
+      <nd ref="814628122" />
+      <nd ref="4958222454" />
+      <nd ref="4958222455" />
+      <nd ref="814643621" />
+      <tag k="building" v="yes" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    <way id="67483979" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="814639015" />
+      <nd ref="4958504755" />
+      <nd ref="814640481" />
+      <nd ref="814638708" />
+      <nd ref="814632507" />
+      <nd ref="814648288" />
+      <nd ref="814641163" />
+      <nd ref="4958504754" />
+      <nd ref="814632069" />
+      <nd ref="814634398" />
+      <nd ref="814630398" />
+      <nd ref="4958504753" />
+      <nd ref="814634218" />
+      <nd ref="814642180" />
+      <nd ref="814627551" />
+      <nd ref="4958604119" />
+      <nd ref="4958604120" />
+      <nd ref="814644761" />
+      <nd ref="814630405" />
+      <nd ref="814640170" />
+      <nd ref="814637263" />
+      <nd ref="4958604121" />
+      <nd ref="4958604125" />
+      <nd ref="4958604126" />
+      <nd ref="814630448" />
+      <nd ref="4958604127" />
+      <nd ref="814630564" />
+      <nd ref="814630203" />
+      <nd ref="814647417" />
+      <nd ref="6602339727" />
+      <nd ref="814635873" />
+      <nd ref="4958604122" />
+      <nd ref="814631211" />
+      <nd ref="814632775" />
+      <nd ref="814640337" />
+      <nd ref="814647786" />
+      <nd ref="814643227" />
+      <nd ref="814641924" />
+      <nd ref="4958604123" />
+      <nd ref="814642502" />
+      <nd ref="814645055" />
+      <nd ref="814647907" />
+      <nd ref="814646251" />
+      <nd ref="814629043" />
+      <nd ref="814634147" />
+      <nd ref="814631573" />
+      <nd ref="814645943" />
+      <nd ref="814636680" />
+      <nd ref="814637666" />
+      <nd ref="814647323" />
+      <nd ref="814635598" />
+      <nd ref="814638942" />
+      <nd ref="814647841" />
+      <nd ref="814641438" />
+      <nd ref="814639032" />
+      <nd ref="814639015" />
+      <tag k="building" v="yes" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+    </way>
+    </modify>
+  <modify>
+    <way id="79500014" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="13">
+      <nd ref="733714346" />
+      <nd ref="2935170666" />
+      <nd ref="733714433" />
+      <nd ref="4113573206" />
+      <nd ref="733714493" />
+      <nd ref="733714378" />
+      <nd ref="1497396853" />
+      <nd ref="1377105917" />
+      <nd ref="6602339689" />
+      <nd ref="733714424" />
+      <nd ref="733714522" />
+      <nd ref="733714308" />
+      <nd ref="412111962" />
+      <nd ref="4113573202" />
+      <nd ref="4958668976" />
+      <nd ref="733714508" />
+      <nd ref="412111963" />
+      <nd ref="733714284" />
+      <nd ref="1376492626" />
+      <nd ref="1376492618" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Amp&#232;re" />
+      <tag k="source" v="cadastre-dgfip-fr 2017" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    <way id="79620282" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="6">
+      <nd ref="929127611" />
+      <nd ref="6602333119" />
+      <nd ref="1909916257" />
+      <nd ref="306496941" />
+      <nd ref="4958551758" />
+      <nd ref="1775282831" />
+      <nd ref="4958551755" />
+      <nd ref="4958551751" />
+      <nd ref="1909916258" />
+      <nd ref="1909916266" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    </modify>
+  <modify>
+    <way id="105694521" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="6">
+      <nd ref="1217207492" />
+      <nd ref="1217207870" />
+      <nd ref="1217207848" />
+      <nd ref="1217207233" />
+      <nd ref="6603643803" />
+      <nd ref="613570618" />
+      <tag k="highway" v="residential" />
+      <tag k="name" v="Rue du Stade" />
+      <tag k="ref:FR:FANTOIR" v="014180600G" />
+    </way>
+    <way id="105694531" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="2">
+      <nd ref="613571081" />
+      <nd ref="1217207729" />
+      <nd ref="1217207622" />
+      <nd ref="1217207979" />
+      <nd ref="1217207402" />
+      <nd ref="1217207666" />
+      <nd ref="1217207998" />
+      <tag k="highway" v="service" />
+    </way>
+    </modify>
+  <modify>
+    <way id="123122260" timestamp="2019-07-10T11:25:14Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013706" />
+      <nd ref="1374013697" />
+      <nd ref="1374013691" />
+      <nd ref="1374013688" />
+      <nd ref="1374013695" />
+      <nd ref="1374013682" />
+      <nd ref="1374013677" />
+      <nd ref="1374013673" />
+      <nd ref="1374013679" />
+      <nd ref="1374013674" />
+      <nd ref="1374013764" />
+      <nd ref="1374013765" />
+      <nd ref="1374013719" />
+      <nd ref="1374013761" />
+      <nd ref="1374013706" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122267" timestamp="2019-07-10T11:25:15Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013389" />
+      <nd ref="1374013403" />
+      <nd ref="1374013423" />
+      <nd ref="1374013337" />
+      <nd ref="1374013320" />
+      <nd ref="1374013323" />
+      <nd ref="1374013312" />
+      <nd ref="1374013328" />
+      <nd ref="1374013326" />
+      <nd ref="1374013333" />
+      <nd ref="1374013334" />
+      <nd ref="1374013380" />
+      <nd ref="1374013378" />
+      <nd ref="1374013388" />
+      <nd ref="1374013389" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122280" timestamp="2019-07-10T11:25:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013096" />
+      <nd ref="1374013090" />
+      <nd ref="1374013095" />
+      <nd ref="1374013103" />
+      <nd ref="1374013124" />
+      <nd ref="1374013117" />
+      <nd ref="1374013100" />
+      <nd ref="1374013094" />
+      <nd ref="1374013088" />
+      <nd ref="1374013086" />
+      <nd ref="1374013104" />
+      <nd ref="1374013097" />
+      <nd ref="1374013139" />
+      <nd ref="1374013151" />
+      <nd ref="1374013130" />
+      <nd ref="1374013126" />
+      <nd ref="1374013096" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122286" timestamp="2019-07-10T11:25:17Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013684" />
+      <nd ref="1374013585" />
+      <nd ref="1374013584" />
+      <nd ref="1374013575" />
+      <nd ref="1374013576" />
+      <nd ref="1374013558" />
+      <nd ref="1374013556" />
+      <nd ref="1374013553" />
+      <nd ref="1374013542" />
+      <nd ref="1374013539" />
+      <nd ref="1374013535" />
+      <nd ref="1374013569" />
+      <nd ref="1374013570" />
+      <nd ref="1374013571" />
+      <nd ref="1374013572" />
+      <nd ref="1374013594" />
+      <nd ref="1374013598" />
+      <nd ref="1374013586" />
+      <nd ref="1374013589" />
+      <nd ref="1374013681" />
+      <nd ref="1374013684" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122287" timestamp="2019-07-10T11:25:19Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013562" />
+      <nd ref="1374013488" />
+      <nd ref="1374013445" />
+      <nd ref="1374013520" />
+      <nd ref="1374013518" />
+      <nd ref="1374013522" />
+      <nd ref="1374013523" />
+      <nd ref="1374013524" />
+      <nd ref="1374013526" />
+      <nd ref="1374013531" />
+      <nd ref="1374013533" />
+      <nd ref="1374013538" />
+      <nd ref="1374013543" />
+      <nd ref="1374013550" />
+      <nd ref="1374013557" />
+      <nd ref="1374013563" />
+      <nd ref="1374013565" />
+      <nd ref="1374013546" />
+      <nd ref="1374013549" />
+      <nd ref="1374013552" />
+      <nd ref="1374013555" />
+      <nd ref="1374013562" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122297" timestamp="2019-07-10T11:25:20Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013215" />
+      <nd ref="1374013199" />
+      <nd ref="1374013220" />
+      <nd ref="1374013221" />
+      <nd ref="1374013345" />
+      <nd ref="1374013363" />
+      <nd ref="1374013344" />
+      <nd ref="1374013354" />
+      <nd ref="1374013343" />
+      <nd ref="1374013340" />
+      <nd ref="1374013339" />
+      <nd ref="1374013338" />
+      <nd ref="1374013314" />
+      <nd ref="1374013240" />
+      <nd ref="1374013227" />
+      <nd ref="1374013257" />
+      <nd ref="1374013303" />
+      <nd ref="1374013309" />
+      <nd ref="1374013306" />
+      <nd ref="1374013302" />
+      <nd ref="1374013245" />
+      <nd ref="1374013244" />
+      <nd ref="1374013243" />
+      <nd ref="1374013216" />
+      <nd ref="1374013215" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122298" timestamp="2019-07-10T08:31:12Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013623" />
+      <nd ref="1374013620" />
+      <nd ref="1374013621" />
+      <nd ref="1374013612" />
+      <nd ref="1374013609" />
+      <nd ref="1374013613" />
+      <nd ref="1374013615" />
+      <nd ref="1374013622" />
+      <nd ref="1374013624" />
+      <nd ref="1374013627" />
+      <nd ref="1374013637" />
+      <nd ref="1374013639" />
+      <nd ref="1374013643" />
+      <nd ref="1374013651" />
+      <nd ref="1374013655" />
+      <nd ref="1374013659" />
+      <nd ref="1374013658" />
+      <nd ref="1374013654" />
+      <nd ref="1374013650" />
+      <nd ref="1374013642" />
+      <nd ref="1374013638" />
+      <nd ref="1374013635" />
+      <nd ref="1374013628" />
+      <nd ref="1374013625" />
+      <nd ref="1374013623" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122305" timestamp="2019-07-10T08:31:13Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013171" />
+      <nd ref="1374013173" />
+      <nd ref="1374013165" />
+      <nd ref="1374013171" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122307" timestamp="2019-07-10T08:31:14Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013387" />
+      <nd ref="1374013371" />
+      <nd ref="1374013377" />
+      <nd ref="1374013317" />
+      <nd ref="1374013325" />
+      <nd ref="1374013246" />
+      <nd ref="1374013207" />
+      <nd ref="1374013188" />
+      <nd ref="1374013185" />
+      <nd ref="1374013190" />
+      <nd ref="1374013172" />
+      <nd ref="1374013169" />
+      <nd ref="1374013167" />
+      <nd ref="1374013170" />
+      <nd ref="1374013166" />
+      <nd ref="1374013160" />
+      <nd ref="1374013158" />
+      <nd ref="1374013179" />
+      <nd ref="1374013181" />
+      <nd ref="1374013183" />
+      <nd ref="1374013289" />
+      <nd ref="1374013294" />
+      <nd ref="1374013296" />
+      <nd ref="1374013295" />
+      <nd ref="1374013299" />
+      <nd ref="1374013301" />
+      <nd ref="1374013304" />
+      <nd ref="1374013305" />
+      <nd ref="1374013404" />
+      <nd ref="1374013405" />
+      <nd ref="1374013373" />
+      <nd ref="1374013387" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122311" timestamp="2019-07-10T08:31:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013509" />
+      <nd ref="1374013508" />
+      <nd ref="1374013510" />
+      <nd ref="1374013513" />
+      <nd ref="1374013509" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122315" timestamp="2019-07-10T08:31:17Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013182" />
+      <nd ref="1374013288" />
+      <nd ref="1374013289" />
+      <nd ref="1374013183" />
+      <nd ref="1374013182" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122330" timestamp="2019-07-10T08:31:18Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013208" />
+      <nd ref="1374013207" />
+      <nd ref="1374013246" />
+      <nd ref="1374013255" />
+      <nd ref="1374013208" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122337" timestamp="2019-07-10T08:31:19Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1334740893" />
+      <nd ref="1374013136" />
+      <nd ref="1374013133" />
+      <nd ref="1374013132" />
+      <nd ref="1334740893" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122342" timestamp="2019-07-10T14:57:12Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013718" />
+      <nd ref="1374013717" />
+      <nd ref="1374013720" />
+      <nd ref="1374013721" />
+      <nd ref="1374013718" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122343" timestamp="2019-07-10T14:57:13Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013410" />
+      <nd ref="1374013407" />
+      <nd ref="1374013438" />
+      <nd ref="1374013441" />
+      <nd ref="1374013410" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122345" timestamp="2019-07-10T14:57:15Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013556" />
+      <nd ref="1374013545" />
+      <nd ref="1374013544" />
+      <nd ref="1374013553" />
+      <nd ref="1374013556" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122360" timestamp="2019-07-10T14:57:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013272" />
+      <nd ref="1374013265" />
+      <nd ref="1374013275" />
+      <nd ref="1374013277" />
+      <nd ref="1374013272" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122362" timestamp="2019-07-10T12:08:12Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013641" />
+      <nd ref="1374013640" />
+      <nd ref="1374013653" />
+      <nd ref="1374013657" />
+      <nd ref="1374013641" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122376" timestamp="2019-07-10T12:08:13Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013605" />
+      <nd ref="1374013602" />
+      <nd ref="1374013607" />
+      <nd ref="1374013610" />
+      <nd ref="1374013605" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122377" timestamp="2019-07-10T12:08:15Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013393" />
+      <nd ref="1374013391" />
+      <nd ref="1374013459" />
+      <nd ref="1374013467" />
+      <nd ref="1374013393" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122379" timestamp="2019-07-10T12:08:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013218" />
+      <nd ref="1374013212" />
+      <nd ref="1374013210" />
+      <nd ref="1374013214" />
+      <nd ref="1374013218" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122390" timestamp="2019-07-10T12:08:17Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013196" />
+      <nd ref="1374013195" />
+      <nd ref="1374013213" />
+      <nd ref="1374013217" />
+      <nd ref="1374013196" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122394" timestamp="2019-07-10T12:08:18Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013571" />
+      <nd ref="1374013570" />
+      <nd ref="1374013569" />
+      <nd ref="1374013572" />
+      <nd ref="1374013571" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122398" timestamp="2019-07-10T09:50:14Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013437" />
+      <nd ref="1374013426" />
+      <nd ref="1374013439" />
+      <nd ref="1374013443" />
+      <nd ref="1374013437" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122412" timestamp="2019-07-10T09:50:15Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013391" />
+      <nd ref="1374013366" />
+      <nd ref="1374013436" />
+      <nd ref="1374013459" />
+      <nd ref="1374013391" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122413" timestamp="2019-07-10T09:50:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013578" />
+      <nd ref="1374013577" />
+      <nd ref="1374013581" />
+      <nd ref="1374013582" />
+      <nd ref="1374013578" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122414" timestamp="2019-07-10T10:36:12Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013232" />
+      <nd ref="1374013231" />
+      <nd ref="1374013229" />
+      <nd ref="1374013230" />
+      <nd ref="1374013232" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122419" timestamp="2019-07-10T10:36:13Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013206" />
+      <nd ref="1374013205" />
+      <nd ref="1374013224" />
+      <nd ref="1374013228" />
+      <nd ref="1374013206" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122426" timestamp="2019-07-10T10:36:14Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013548" />
+      <nd ref="1374013540" />
+      <nd ref="1374013564" />
+      <nd ref="1374013566" />
+      <nd ref="1374013548" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122433" timestamp="2019-07-10T07:17:12Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013263" />
+      <nd ref="1374013273" />
+      <nd ref="1374013275" />
+      <nd ref="1374013265" />
+      <nd ref="1374013263" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122438" timestamp="2019-07-10T07:17:13Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013734" />
+      <nd ref="1374013733" />
+      <nd ref="1374013751" />
+      <nd ref="1374013753" />
+      <nd ref="1374013734" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123122446" timestamp="2019-07-10T07:17:14Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013502" />
+      <nd ref="1374013501" />
+      <nd ref="1374013503" />
+      <nd ref="1374013505" />
+      <nd ref="1374013502" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122447" timestamp="2019-07-10T07:17:15Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013061" />
+      <nd ref="1374013064" />
+      <nd ref="1374013066" />
+      <nd ref="1374013062" />
+      <nd ref="1374013061" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="wall" v="no" />
+    </way>
+    <way id="123122450" timestamp="2019-07-10T07:17:16Z" uid="9089722" user="mribastt" version="3">
+      <nd ref="1374013138" />
+      <nd ref="1374013137" />
+      <nd ref="1374013142" />
+      <nd ref="1374013143" />
+      <nd ref="1374013138" />
+      <tag k="building" v="industrial" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+    </way>
+    <way id="123195606" timestamp="2019-07-10T15:57:08Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="12">
+      <nd ref="1374638719" />
+      <nd ref="1374638717" />
+      <nd ref="3987467786" />
+      <nd ref="4554886631" />
+      <nd ref="4674699294" />
+      <nd ref="8702682" />
+      <nd ref="1847322833" />
+      <nd ref="1374638711" />
+      <nd ref="1374638710" />
+      <nd ref="8702364" />
+      <nd ref="1847025224" />
+      <nd ref="8702365" />
+      <nd ref="4639053958" />
+      <nd ref="4639053959" />
+      <nd ref="2110848955" />
+      <nd ref="8762800" />
+      <nd ref="1581522368" />
+      <nd ref="1581522367" />
+      <nd ref="4639053961" />
+      <nd ref="8762756" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Avenue Mar&#233;chal Foch" />
+    </way>
+    <way id="123505241" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="1377106027" />
+      <nd ref="1377106022" />
+      <nd ref="1377106018" />
+      <nd ref="1377106007" />
+      <nd ref="1377105998" />
+      <nd ref="1377105992" />
+      <nd ref="1377105985" />
+      <nd ref="1377105980" />
+      <nd ref="6602339697" />
+      <nd ref="1377105943" />
+      <nd ref="1377105941" />
+      <nd ref="1377105934" />
+      <nd ref="1377105932" />
+      <tag k="highway" v="footway" />
+      <tag k="surface" v="gravel" />
+    </way>
+    <way id="123505253" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="1377105883" />
+      <nd ref="6602333142" />
+      <nd ref="1377105879" />
+      <tag k="highway" v="footway" />
+      <tag k="surface" v="gravel" />
+    </way>
+    <way id="123505261" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="1377105898" />
+      <nd ref="1377105894" />
+      <nd ref="1377105881" />
+      <nd ref="1377105867" />
+      <nd ref="1377105856" />
+      <nd ref="1377105852" />
+      <nd ref="1377105848" />
+      <nd ref="1377105850" />
+      <nd ref="1377105855" />
+      <nd ref="1377105860" />
+      <nd ref="1377105874" />
+      <nd ref="1377105889" />
+      <nd ref="1377105904" />
+      <nd ref="1377105912" />
+      <nd ref="1377105918" />
+      <nd ref="1377105908" />
+      <nd ref="1377105901" />
+      <nd ref="1377105898" />
+      <nd ref="1377105903" />
+      <nd ref="1377105906" />
+      <nd ref="1377105911" />
+      <nd ref="1377105940" />
+      <nd ref="1377105953" />
+      <nd ref="1377105969" />
+      <nd ref="1377105981" />
+      <nd ref="1377105985" />
+      <tag k="highway" v="footway" />
+      <tag k="surface" v="gravel" />
+    </way>
+    <way id="123505266" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="733714433" />
+      <nd ref="1377106089" />
+      <nd ref="1377106096" />
+      <nd ref="1377106099" />
+      <nd ref="1377106102" />
+      <nd ref="1377106094" />
+      <nd ref="1377106087" />
+      <nd ref="1377106072" />
+      <nd ref="1377106054" />
+      <nd ref="1377106048" />
+      <nd ref="1377106027" />
+      <nd ref="1377106021" />
+      <nd ref="1377106019" />
+      <nd ref="1377106010" />
+      <nd ref="1377106005" />
+      <nd ref="1377106006" />
+      <nd ref="1377106013" />
+      <nd ref="1377106015" />
+      <nd ref="1377106017" />
+      <nd ref="1377106009" />
+      <nd ref="1377106000" />
+      <nd ref="1377105984" />
+      <nd ref="1377105976" />
+      <nd ref="6602339700" />
+      <nd ref="1377105970" />
+      <nd ref="1377105957" />
+      <nd ref="1377105954" />
+      <nd ref="1377105945" />
+      <nd ref="1377105939" />
+      <nd ref="1377105932" />
+      <nd ref="1377105925" />
+      <nd ref="1377105918" />
+      <nd ref="1377105923" />
+      <nd ref="1377105927" />
+      <nd ref="6602339696" />
+      <nd ref="1377105917" />
+      <tag k="highway" v="footway" />
+      <tag k="surface" v="gravel" />
+    </way>
+    <way id="123505272" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5">
+      <nd ref="1377105973" />
+      <nd ref="1377105988" />
+      <nd ref="1377106012" />
+      <nd ref="1377106020" />
+      <nd ref="1377106092" />
+      <nd ref="814632765" />
+      <nd ref="814646632" />
+      <nd ref="814632037" />
+      <nd ref="1377106074" />
+      <nd ref="1377106089" />
+      <nd ref="1377106095" />
+      <nd ref="1377106107" />
+      <nd ref="6602333183" />
+      <nd ref="1378440641" />
+      <nd ref="1377106073" />
+      <nd ref="6602333178" />
+      <nd ref="1377105948" />
+      <nd ref="6602333181" />
+      <nd ref="1377105891" />
+      <nd ref="1377105861" />
+      <nd ref="814645650" />
+      <nd ref="1377105834" />
+      <nd ref="6602339688" />
+      <nd ref="4966387976" />
+      <nd ref="1377105927" />
+      <nd ref="1377105973" />
+      <tag k="leisure" v="park" />
+      <tag k="name" v="Parc Georges Manillier" />
+    </way>
+    <way id="123693330" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="1378440639" />
+      <nd ref="733714338" />
+      <tag k="highway" v="footway" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2011" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="124319604" timestamp="2019-07-10T15:47:58Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="4">
+      <nd ref="3807653478" />
+      <nd ref="33254619" />
+      <tag k="highway" v="primary" />
+      <tag k="maxspeed" v="30" />
+      <tag k="name" v="Quai Mar&#233;chal Joffre" />
+      <tag k="oneway" v="yes" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="128942270" timestamp="2019-07-10T14:07:45Z" uid="3909835" user="laurent-38" version="5">
+      <nd ref="1423503441" />
+      <nd ref="1423503488" />
+      <nd ref="1423503409" />
+      <nd ref="1423503447" />
+      <nd ref="1423503441" />
+      <tag k="addr:housenumber" v="69 bis" />
+      <tag k="addr:street" v="Rue Centrale" />
+      <tag k="amenity" v="doctors" />
+      <tag k="building" v="yes" />
+      <tag k="name" v="M&#233;dicentre" />
+      <tag k="opening_hours" v="Mo-Sa 08:30-12:00,13:30-17:00" />
+      <tag k="source" v="Mairie de ST-Quentin-Fallavier" />
+    </way>
+    </modify>
+  <modify>
+    <way id="138536243" timestamp="2019-07-10T14:32:21Z" uid="101225" user="nuxper_np" version="18">
+      <nd ref="6004546408" />
+      <nd ref="5706981811" />
+      <nd ref="3845035277" />
+      <nd ref="25319196" />
+      <nd ref="6185387551" />
+      <nd ref="21604552" />
+      <nd ref="761253593" />
+      <nd ref="3844999733" />
+      <nd ref="25319195" />
+      <nd ref="639567628" />
+      <nd ref="3844999736" />
+      <nd ref="21604553" />
+      <nd ref="26053016" />
+      <nd ref="6429369241" />
+      <nd ref="6429369240" />
+      <nd ref="6429369230" />
+      <nd ref="25719219" />
+      <nd ref="6429369226" />
+      <nd ref="6429369227" />
+      <nd ref="3844986268" />
+      <nd ref="3844993423" />
+      <nd ref="1042749519" />
+      <nd ref="25719223" />
+      <tag k="busway:left" v="opposite_lane" />
+      <tag k="cycleway:left" v="share_busway" />
+      <tag k="cycleway:right" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="lanes" v="2" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="50" />
+      <tag k="name" v="Avenue Mar&#233;chal de Saxe" />
+      <tag k="oneway" v="yes" />
+      <tag k="oneway:bicycle" v="no" />
+      <tag k="oneway:psv" v="no" />
+      <tag k="surface" v="asphalt" />
+      <tag k="trolley_wire" v="yes" />
+    </way>
+    <way id="139669297" timestamp="2019-07-10T15:57:08Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="6">
+      <nd ref="8762756" />
+      <nd ref="1847213999" />
+      <nd ref="8591689" />
+      <nd ref="4639053960" />
+      <nd ref="4639053965" />
+      <nd ref="3854561266" />
+      <nd ref="4639053967" />
+      <nd ref="9252842" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Avenue Mar&#233;chal Foch" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="142748918" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="8">
+      <nd ref="266868152" />
+      <nd ref="613570623" />
+      <nd ref="613570620" />
+      <nd ref="3065374298" />
+      <nd ref="1217226243" />
+      <nd ref="1217226282" />
+      <nd ref="613570618" />
+      <nd ref="6603643802" />
+      <nd ref="2438523037" />
+      <nd ref="6603643801" />
+      <nd ref="2438523039" />
+      <nd ref="3065376991" />
+      <nd ref="2438523042" />
+      <nd ref="6603643786" />
+      <nd ref="613571083" />
+      <nd ref="2438523048" />
+      <nd ref="2438523050" />
+      <nd ref="613571081" />
+      <nd ref="3828022109" />
+      <nd ref="3828022110" />
+      <nd ref="1217226263" />
+      <nd ref="2438523054" />
+      <nd ref="4127484663" />
+      <nd ref="6603643182" />
+      <nd ref="613571080" />
+      <nd ref="613571078" />
+      <nd ref="1217226141" />
+      <nd ref="1217226182" />
+      <nd ref="613571075" />
+      <nd ref="1217207280" />
+      <nd ref="1217226242" />
+      <nd ref="613571073" />
+      <nd ref="1217207647" />
+      <nd ref="613571070" />
+      <nd ref="1217207836" />
+      <nd ref="613571068" />
+      <nd ref="613571065" />
+      <nd ref="1217207536" />
+      <nd ref="1217207750" />
+      <nd ref="613571062" />
+      <nd ref="1217207940" />
+      <nd ref="613571059" />
+      <nd ref="1217226363" />
+      <nd ref="1217207778" />
+      <nd ref="613571402" />
+      <nd ref="3828022111" />
+      <nd ref="613571056" />
+      <nd ref="1217207598" />
+      <nd ref="613571054" />
+      <nd ref="3828022112" />
+      <nd ref="613571051" />
+      <nd ref="1217207658" />
+      <nd ref="613571048" />
+      <nd ref="1217207925" />
+      <nd ref="613571037" />
+      <nd ref="1217207126" />
+      <nd ref="3828022113" />
+      <nd ref="1217208017" />
+      <tag k="highway" v="tertiary" />
+      <tag k="name" v="Rue de la Mairie" />
+      <tag k="ref" v="D 61b" />
+    </way>
+    </modify>
+  <modify>
+    <way id="180540306" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="1909627271" />
+      <nd ref="1909627272" />
+      <nd ref="6602333152" />
+      <nd ref="1909627273" />
+      <nd ref="1909627277" />
+      <nd ref="1909627279" />
+      <nd ref="1909627281" />
+      <tag k="highway" v="residential" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="180540307" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="490664323" />
+      <nd ref="6602339759" />
+      <nd ref="6602339735" />
+      <nd ref="490664308" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Place Jean Jaur&#232;s" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="180540309" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="490664308" />
+      <nd ref="1377106023" />
+      <nd ref="6602339744" />
+      <nd ref="6602339740" />
+      <nd ref="490664273" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Place Jean Jaur&#232;s" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="180540311" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="490664266" />
+      <nd ref="490664349" />
+      <nd ref="6602339750" />
+      <nd ref="6602339751" />
+      <nd ref="490664343" />
+      <nd ref="6602339753" />
+      <nd ref="490664338" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue de la R&#233;publique" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="180540316" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5">
+      <nd ref="733714447" />
+      <nd ref="490664269" />
+      <nd ref="6602339738" />
+      <nd ref="490664273" />
+      <nd ref="1377106076" />
+      <nd ref="1377106085" />
+      <nd ref="1377106104" />
+      <nd ref="4133466570" />
+      <nd ref="733714476" />
+      <nd ref="490664279" />
+      <tag k="cycleway" v="opposite" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Roger Salengro" />
+      <tag k="oneway" v="yes" />
+    </way>
+    <way id="180566677" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="1909916290" />
+      <nd ref="6602333176" />
+      <nd ref="1909893958" />
+      <nd ref="6602333167" />
+      <nd ref="6602333169" />
+      <nd ref="6602333166" />
+      <nd ref="6602333159" />
+      <nd ref="1909916288" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="180566682" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="5">
+      <nd ref="1909916288" />
+      <nd ref="6602333165" />
+      <nd ref="1909893955" />
+      <nd ref="1909893954" />
+      <nd ref="1909893953" />
+      <nd ref="1909893952" />
+      <nd ref="1909916272" />
+      <nd ref="1909893951" />
+      <nd ref="2163399880" />
+      <nd ref="1909916265" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="180566685" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="7">
+      <nd ref="1909627281" />
+      <nd ref="412112556" />
+      <nd ref="2179451163" />
+      <nd ref="4133503010" />
+      <nd ref="4958504752" />
+      <nd ref="4958504749" />
+      <nd ref="2179451165" />
+      <nd ref="1909916291" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="180566687" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="412112553" />
+      <nd ref="1909627271" />
+      <nd ref="6602333151" />
+      <nd ref="412112554" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="180566692" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="1909916266" />
+      <nd ref="306496942" />
+      <nd ref="6602333139" />
+      <nd ref="1909916274" />
+      <nd ref="412112179" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="180566695" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="412111948" />
+      <nd ref="6602333120" />
+      <nd ref="6602333136" />
+      <nd ref="1377105841" />
+      <nd ref="1377105831" />
+      <nd ref="412111949" />
+      <nd ref="6602333116" />
+      <nd ref="1377105821" />
+      <nd ref="1377105819" />
+      <nd ref="1377105811" />
+      <nd ref="1377105807" />
+      <nd ref="1376492631" />
+      <nd ref="1376492629" />
+      <nd ref="4966283970" />
+      <nd ref="2063023574" />
+      <nd ref="1376492628" />
+      <nd ref="1376492627" />
+      <nd ref="1376492625" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue Henri Barbusse" />
+      <tag k="source" v="cadastre-dgfip-fr 2017" />
+    </way>
+    <way id="180566697" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="1909916271" />
+      <nd ref="6602333141" />
+      <nd ref="1909916273" />
+      <nd ref="1909916276" />
+      <nd ref="1909916277" />
+      <nd ref="1909916278" />
+      <nd ref="1909916279" />
+      <nd ref="1909916282" />
+      <nd ref="1909916287" />
+      <nd ref="1909916286" />
+      <nd ref="6602333182" />
+      <nd ref="1909916280" />
+      <nd ref="1909916279" />
+      <tag k="highway" v="service" />
+      <tag k="service" v="parking_aisle" />
+    </way>
+    </modify>
+  <modify>
+    <way id="195909920" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="2">
+      <nd ref="2063023574" />
+      <nd ref="2063023577" />
+      <nd ref="6602333118" />
+      <nd ref="2063023580" />
+      <nd ref="6602333119" />
+      <tag k="highway" v="pedestrian" />
+      <tag k="name" v="All&#233;e Alexandre Cublier" />
+    </way>
+    </modify>
+  <modify>
+    <way id="235778076" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="3">
+      <nd ref="1217226184" />
+      <nd ref="1217226228" />
+      <nd ref="1217226111" />
+      <nd ref="1217226126" />
+      <nd ref="1217226200" />
+      <nd ref="1217226251" />
+      <nd ref="1217226131" />
+      <nd ref="1217226166" />
+      <nd ref="1217226278" />
+      <nd ref="1217226288" />
+      <nd ref="4126883326" />
+      <nd ref="1217226198" />
+      <nd ref="6603636783" />
+      <nd ref="2438523050" />
+      <tag k="highway" v="residential" />
+      <tag k="name" v="Rue de l'&#201;glise" />
+      <tag k="oneway" v="yes" />
+    </way>
+    </modify>
+  <modify>
+    <way id="258610442" timestamp="2019-07-10T10:13:52Z" uid="1151930" user="Ludovic Drouard" version="6">
+      <nd ref="362076524" />
+      <nd ref="2639446373" />
+      <tag k="cycleway:both" v="no" />
+      <tag k="highway" v="residential" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed:type" v="FR:urban" />
+      <tag k="name" v="Rue d'Essling" />
+      <tag k="oneway" v="yes" />
+      <tag k="sidewalk" v="both" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="302876143" timestamp="2019-07-09T21:50:21Z" uid="6964776" user="assalea" version="4">
+      <nd ref="3071592619" />
+      <nd ref="3071592499" />
+      <nd ref="3071591670" />
+      <nd ref="1555539121" />
+      <nd ref="5106093324" />
+      <nd ref="6601188874" />
+      <tag k="access" v="no" />
+      <tag k="bus" v="designated" />
+      <tag k="highway" v="service" />
+      <tag k="oneway" v="yes" />
+    </way>
+    </modify>
+  <modify>
+    <way id="312271907" timestamp="2019-07-10T10:13:53Z" uid="1151930" user="Ludovic Drouard" version="6">
+      <nd ref="3181251384" />
+      <nd ref="3181251385" />
+      <nd ref="3181251386" />
+      <nd ref="3181251387" />
+      <nd ref="26079800" />
+      <nd ref="3181251372" />
+      <nd ref="3181251373" />
+      <nd ref="3181251374" />
+      <nd ref="3181251375" />
+      <nd ref="26079798" />
+      <nd ref="3181251376" />
+      <nd ref="3181251377" />
+      <nd ref="3181251378" />
+      <nd ref="3181251379" />
+      <nd ref="26079801" />
+      <nd ref="3181251380" />
+      <nd ref="3181251381" />
+      <nd ref="3181251382" />
+      <nd ref="3181251383" />
+      <nd ref="26079802" />
+      <nd ref="3181251384" />
+      <tag k="highway" v="residential" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="30" />
+      <tag k="name" v="Place Danton" />
+      <tag k="oneway" v="yes" />
+      <tag k="sidewalk" v="right" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="321633181" timestamp="2019-07-10T14:34:13Z" uid="2957041" user="Zilau" version="6">
+      <nd ref="3283833521" />
+      <nd ref="4655963965" />
+      <nd ref="4977182233" />
+      <nd ref="4977182232" />
+      <nd ref="4655963975" />
+      <nd ref="4655963964" />
+      <nd ref="307579761" />
+      <tag k="access" v="no" />
+      <tag k="foot" v="no" />
+      <tag k="highway" v="residential" />
+      <tag k="lanes" v="2" />
+      <tag k="name" v="Rue Mar&#233;chal Leclerc" />
+      <tag k="service" v="bus" />
+    </way>
+    </modify>
+  <modify>
+    <way id="357364046" timestamp="2019-07-10T15:37:04Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="6">
+      <nd ref="1957527551" />
+      <nd ref="1028380046" />
+      <nd ref="1365170342" />
+      <nd ref="1387117293" />
+      <nd ref="1365170345" />
+      <nd ref="1335415694" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="tertiary" />
+      <tag k="maxspeed" v="50" />
+      <tag k="name" v="Avenue G&#233;n&#233;ral Fr&#232;re" />
+      <tag k="source:maxspeed" v="FR:urban" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="411008845" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="2">
+      <nd ref="6603643182" />
+      <nd ref="4127484664" />
+      <nd ref="6603643183" />
+      <nd ref="4127484665" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="411733473" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="4">
+      <nd ref="4133503010" />
+      <nd ref="4133503011" />
+      <nd ref="4133503012" />
+      <nd ref="6602333168" />
+      <nd ref="4133503013" />
+      <nd ref="4133503014" />
+      <nd ref="1909893961" />
+      <tag k="highway" v="secondary_link" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    </modify>
+  <modify>
+    <way id="445330602" timestamp="2019-07-10T16:53:43Z" uid="161619" user="FvGordon" version="5">
+      <nd ref="528892269" />
+      <nd ref="4427807594" />
+      <nd ref="4427807596" />
+      <nd ref="4427807599" />
+      <nd ref="4427807600" />
+      <nd ref="4427807601" />
+      <nd ref="4427807602" />
+      <nd ref="4427807603" />
+      <nd ref="4427807607" />
+      <nd ref="4427807609" />
+      <nd ref="4427807611" />
+      <nd ref="4427807610" />
+      <nd ref="4427807608" />
+      <nd ref="4427807605" />
+      <nd ref="4427807604" />
+      <nd ref="4427807606" />
+      <nd ref="4427807595" />
+      <nd ref="4427807593" />
+      <nd ref="4427808244" />
+      <nd ref="4427808246" />
+      <nd ref="528892269" />
+      <tag k="landuse" v="retail" />
+    </way>
+    </modify>
+  <modify>
+    <way id="477637983" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="3">
+      <nd ref="733714460" />
+      <nd ref="929127616" />
+      <nd ref="1376492630" />
+      <nd ref="6602333117" />
+      <nd ref="929127611" />
+      <tag k="cycleway" v="lane" />
+      <tag k="highway" v="unclassified" />
+      <tag k="name" v="Rue du 8 Mai 1945" />
+    </way>
+    <way id="477662854" timestamp="2019-07-10T15:37:04Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="4">
+      <nd ref="1335415694" />
+      <nd ref="1335415690" />
+      <nd ref="4582158077" />
+      <nd ref="25624155" />
+      <tag k="cycleway:left" v="lane" />
+      <tag k="highway" v="tertiary" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="50" />
+      <tag k="name" v="Avenue G&#233;n&#233;ral Fr&#232;re" />
+      <tag k="source:maxspeed" v="FR:urban" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    <way id="477662855" timestamp="2019-07-10T15:37:04Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="5">
+      <nd ref="25624155" />
+      <nd ref="1957527544" />
+      <nd ref="1028380044" />
+      <nd ref="25624157" />
+      <nd ref="4582158076" />
+      <tag k="highway" v="tertiary" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="50" />
+      <tag k="name" v="Avenue G&#233;n&#233;ral Fr&#232;re" />
+      <tag k="source:maxspeed" v="FR:urban" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="515414382" timestamp="2019-07-10T10:13:53Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="5033648827" />
+      <nd ref="26079798" />
+      <tag k="cycleway" v="opposite_lane" />
+      <tag k="highway" v="residential" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="30" />
+      <tag k="name" v="Rue du Pensionnat" />
+      <tag k="oneway" v="yes" />
+      <tag k="oneway:bicycle" v="no" />
+      <tag k="sidewalk" v="both" />
+      <tag k="source" v="survey" />
+      <tag k="source:date" v="2016-11-05" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    <way id="515414383" timestamp="2019-07-10T10:13:54Z" uid="1151930" user="Ludovic Drouard" version="3">
+      <nd ref="5033648826" />
+      <nd ref="5033648831" />
+      <nd ref="26079800" />
+      <tag k="highway" v="residential" />
+      <tag k="lit" v="yes" />
+      <tag k="maxspeed" v="30" />
+      <tag k="name" v="Rue Danton" />
+      <tag k="oneway" v="yes" />
+      <tag k="sidewalk" v="both" />
+      <tag k="source" v="cadastre-dgi-fr source : Direction G&#233;n&#233;rale des Imp&#244;ts - Cadastre. Mise &#224; jour : 2010" />
+      <tag k="surface" v="asphalt" />
+    </way>
+    </modify>
+  <modify>
+    <way id="668615036" timestamp="2019-07-10T10:13:59Z" uid="1151930" user="Ludovic Drouard" version="2">
+      <nd ref="6261320391" />
+      <nd ref="6261320390" />
+      <tag k="highway" v="footway" />
+      <tag k="surface" v="concrete" />
+    </way>
+  </modify>
+  <modify>
+    <way id="672324872" timestamp="2019-07-10T16:13:04Z" uid="8930119" user="R&#233;seau TCL (Keolis Lyon)" version="2">
+      <nd ref="25319190" />
+      <nd ref="6004546408" />
+      <tag k="busway:left" v="opposite_lane" />
+      <tag k="cycleway:left" v="share_busway" />
+      <tag k="cycleway:right" v="lane" />
+      <tag k="highway" v="secondary" />
+      <tag k="lanes" v="2" />
+      <tag k="maxspeed" v="50" />
+      <tag k="name" v="Avenue Mar&#233;chal de Saxe" />
+      <tag k="oneway" v="yes" />
+      <tag k="oneway:bicycle" v="no" />
+      <tag k="oneway:psv" v="no" />
+      <tag k="surface" v="asphalt" />
+      <tag k="trolley_wire" v="yes" />
+    </way>
+    </modify>
+  <modify>
+    <way id="700645913" timestamp="2019-07-10T16:53:43Z" uid="161619" user="FvGordon" version="3">
+      <nd ref="6579719293" />
+      <nd ref="6579719294" />
+      <nd ref="6579719295" />
+      <nd ref="6579719296" />
+      <nd ref="6579719297" />
+      <nd ref="6579719298" />
+      <nd ref="6579719299" />
+      <nd ref="6579719300" />
+      <nd ref="6579719301" />
+      <nd ref="6579719302" />
+      <nd ref="6579719303" />
+      <nd ref="6579719304" />
+      <nd ref="6579719305" />
+      <nd ref="6579719306" />
+      <nd ref="6579719293" />
+      <tag k="landuse" v="grass" />
+    </way>
+    </modify>
+  <create>
+    <way id="703038985" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="1909916255" />
+      <nd ref="1909916254" />
+      <tag k="footway" v="crossing" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038986" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333137" />
+      <nd ref="6602333124" />
+      <nd ref="6602333123" />
+      <nd ref="6602333122" />
+      <nd ref="6602333121" />
+      <nd ref="6602333136" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038987" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="1377105841" />
+      <nd ref="6602333126" />
+      <nd ref="6602333125" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703038988" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333135" />
+      <nd ref="6602333134" />
+      <nd ref="6602333133" />
+      <nd ref="6602333132" />
+      <nd ref="6602333131" />
+      <nd ref="6602333130" />
+      <nd ref="6602333129" />
+      <nd ref="6602333128" />
+      <nd ref="6602333127" />
+      <nd ref="6602333126" />
+      <nd ref="6602333135" />
+      <tag k="amenity" v="parking" />
+      <tag k="parking" v="surface" />
+    </way>
+    <way id="703038989" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333142" />
+      <nd ref="6602333141" />
+      <nd ref="6602333140" />
+      <nd ref="6602333146" />
+      <nd ref="6602333145" />
+      <nd ref="6602333144" />
+      <nd ref="6602333143" />
+      <nd ref="1909893953" />
+      <tag k="footway" v="sidewalk" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038990" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333150" />
+      <nd ref="6602333149" />
+      <nd ref="6602333148" />
+      <nd ref="1909627272" />
+      <nd ref="6602333147" />
+      <nd ref="6602333151" />
+      <nd ref="1909893953" />
+      <tag k="footway" v="crossing" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038991" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333139" />
+      <nd ref="1909893951" />
+      <nd ref="6602333138" />
+      <nd ref="6602333137" />
+      <nd ref="1909916270" />
+      <nd ref="412112178" />
+      <nd ref="6602333140" />
+      <tag k="footway" v="crossing" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038992" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333182" />
+      <nd ref="6602333154" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038993" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333153" />
+      <nd ref="6602333180" />
+      <nd ref="6602339693" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038994" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333159" />
+      <nd ref="6602333158" />
+      <nd ref="6602333160" />
+      <nd ref="6602333157" />
+      <nd ref="6602333155" />
+      <nd ref="6602333156" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703038995" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333171" />
+      <nd ref="6602333160" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703038996" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333162" />
+      <nd ref="6602333161" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703038997" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="1909916290" />
+      <nd ref="6602333163" />
+      <nd ref="6602333168" />
+      <nd ref="2179451165" />
+      <tag k="footway" v="crossing" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038998" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="412112556" />
+      <nd ref="6602333166" />
+      <tag k="footway" v="crossing" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703038999" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333165" />
+      <nd ref="6602333164" />
+      <nd ref="1909627281" />
+      <tag k="highway" v="secondary" />
+      <tag k="name" v="Boulevard de l'Europe" />
+      <tag k="oneway" v="yes" />
+      <tag k="ref" v="D 315" />
+    </way>
+    <way id="703039000" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333176" />
+      <nd ref="6602333175" />
+      <nd ref="6602333162" />
+      <nd ref="6602333174" />
+      <nd ref="6602333173" />
+      <nd ref="6602333172" />
+      <nd ref="6602333161" />
+      <nd ref="6602333171" />
+      <nd ref="6602333170" />
+      <nd ref="6602333169" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703039001" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339694" />
+      <nd ref="6602333179" />
+      <nd ref="6602333178" />
+      <nd ref="6602333177" />
+      <nd ref="6602333155" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039002" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602333154" />
+      <nd ref="6602333181" />
+      <nd ref="6602333153" />
+      <tag k="highway" v="steps" />
+      <tag k="incline" v="up" />
+    </way>
+    <way id="703039003" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339686" />
+      <nd ref="6602339685" />
+      <nd ref="6602333184" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039004" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339689" />
+      <nd ref="6602339688" />
+      <nd ref="6602339687" />
+      <nd ref="6602339686" />
+      <nd ref="1377105874" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039005" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="1377105981" />
+      <nd ref="6602339695" />
+      <nd ref="6602339694" />
+      <nd ref="6602339693" />
+      <nd ref="6602339692" />
+      <nd ref="6602339691" />
+      <nd ref="6602339690" />
+      <nd ref="1377105940" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039006" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="1377105984" />
+      <nd ref="6602339699" />
+      <nd ref="6602339698" />
+      <nd ref="6602339697" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039007" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339701" />
+      <nd ref="6602339716" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039008" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339702" />
+      <nd ref="6602339715" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039009" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339706" />
+      <nd ref="6602339702" />
+      <nd ref="6602339703" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039010" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339705" />
+      <nd ref="6602339701" />
+      <nd ref="6602339704" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039011" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339758" />
+      <nd ref="6602339708" />
+      <nd ref="6602339707" />
+      <nd ref="6602339706" />
+      <nd ref="6602339705" />
+      <nd ref="6602339755" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039012" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339714" />
+      <nd ref="6602339713" />
+      <tag k="highway" v="service" />
+    </way>
+    <way id="703039013" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339716" />
+      <nd ref="6602339714" />
+      <nd ref="6602339715" />
+      <tag k="highway" v="service" />
+      <tag k="service" v="parking_aisle" />
+    </way>
+    <way id="703039014" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339720" />
+      <nd ref="6602339719" />
+      <nd ref="6602339718" />
+      <nd ref="6602339717" />
+      <nd ref="6602339720" />
+      <tag k="amenity" v="parking" />
+      <tag k="opening_hours" v="Mo-Sa 00:00-24:00; Su 00:00-06:00,14:30-24:00" />
+      <tag k="parking" v="surface" />
+    </way>
+    <way id="703039015" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339724" />
+      <nd ref="6602339723" />
+      <tag k="highway" v="steps" />
+      <tag k="incline" v="down" />
+    </way>
+    <way id="703039016" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339732" />
+      <nd ref="6602339724" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039017" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339727" />
+      <nd ref="6602339725" />
+      <nd ref="6602339726" />
+      <tag k="barrier" v="fence" />
+      <tag k="fence_type" v="metal" />
+    </way>
+    <way id="703039018" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339730" />
+      <nd ref="6602339729" />
+      <nd ref="6602339728" />
+      <tag k="barrier" v="bollard" />
+      <tag k="foot" v="yes" />
+    </way>
+    <way id="703039019" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339723" />
+      <nd ref="6602339734" />
+      <nd ref="6602339735" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039020" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="733714357" />
+      <nd ref="6602339729" />
+      <nd ref="6602339731" />
+      <nd ref="6602339738" />
+      <nd ref="6602339737" />
+      <nd ref="6602339733" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039021" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339733" />
+      <nd ref="6602339736" />
+      <nd ref="6602339732" />
+      <tag k="highway" v="steps" />
+      <tag k="incline" v="down" />
+    </way>
+    <way id="703039022" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339740" />
+      <nd ref="6602339739" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039023" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339741" />
+      <nd ref="733714263" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039024" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339745" />
+      <nd ref="6602339743" />
+      <nd ref="6602339736" />
+      <nd ref="6602339742" />
+      <nd ref="6602339744" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703039025" timestamp="2019-07-10T10:38:58Z" uid="527910" user="Al-Hun" version="1">
+      <nd ref="6602339749" />
+      <nd ref="6602339748" />
+      <nd ref="6602339747" />
+      <nd ref="6602339746" />
+      <nd ref="6602339749" />
+      <tag k="amenity" v="parking" />
+    </way>
+    </create>
+  <create>
+    <way id="703100411" timestamp="2019-07-10T13:58:09Z" uid="1443767" user="Olyon" version="1">
+      <nd ref="6602906765" />
+      <nd ref="6602906764" />
+      <nd ref="6602906763" />
+      <nd ref="6602906762" />
+      <nd ref="6602906765" />
+      <tag k="description" v="Centrale &#233;lectrique ACTIONVEST" />
+      <tag k="plant:output:electricity" v="3240000" />
+      <tag k="plant:source" v="solar" />
+      <tag k="power" v="plant" />
+      <tag k="source" v="data.gouv.fr:RTE - 2017" />
+      <tag k="start_date" v="2013-11-28" />
+    </way>
+    <way id="703103216" timestamp="2019-07-10T14:04:52Z" uid="1443767" user="Olyon" version="1">
+      <nd ref="6602935836" />
+      <nd ref="6602935835" />
+      <nd ref="6602935834" />
+      <nd ref="6602935833" />
+      <nd ref="6602935832" />
+      <nd ref="6602935831" />
+      <nd ref="6602935836" />
+      <tag k="description" v="Centrale &#233;lectrique VALEO" />
+      <tag k="plant:output:electricity" v="1656000" />
+      <tag k="plant:source" v="solar" />
+      <tag k="power" v="plant" />
+      <tag k="source" v="data.gouv.fr:RTE - 2017" />
+      <tag k="start_date" v="2012-03-21" />
+    </way>
+  </create>
+  <create>
+    <way id="703184735" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <nd ref="6603643183" />
+      <nd ref="6603643184" />
+      <nd ref="6603643785" />
+      <nd ref="613571081" />
+      <tag k="highway" v="footway" />
+    </way>
+    <way id="703184736" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <nd ref="6603643792" />
+      <nd ref="6603643793" />
+      <nd ref="6603643794" />
+      <nd ref="6603643795" />
+      <nd ref="6603643796" />
+      <nd ref="6603643792" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="capacity" v="2" />
+    </way>
+    <way id="703184737" timestamp="2019-07-10T18:23:40Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <nd ref="6603643806" />
+      <nd ref="6603643807" />
+      <nd ref="6603643808" />
+      <nd ref="6603643809" />
+      <nd ref="6603643806" />
+      <tag k="access" v="private" />
+      <tag k="leisure" v="swimming_pool" />
+    </way>
+    <way id="703185313" timestamp="2019-07-10T18:26:43Z" uid="878284" user="Beno&#238;t Prieur" version="1">
+      <nd ref="6603636784" />
+      <nd ref="6603649385" />
+      <nd ref="6603649386" />
+      <nd ref="6603649387" />
+      <nd ref="6603636784" />
+      <tag k="access" v="private" />
+      <tag k="leisure" v="swimming_pool" />
+    </way>
+    </create>
+  <modify>
+    <relation id="1665395" timestamp="2019-07-10T19:38:48Z" uid="661793" user="b&#228;bbie" version="108">
+      <member ref="2925532" role="" type="relation" />
+      <member ref="2929190" role="" type="relation" />
+      <member ref="2931231" role="" type="relation" />
+      <member ref="3360417" role="" type="relation" />
+      <member ref="3360511" role="" type="relation" />
+      <member ref="3360594" role="" type="relation" />
+      <member ref="3360813" role="" type="relation" />
+      <member ref="2716464" role="" type="relation" />
+      <member ref="2716463" role="" type="relation" />
+      <member ref="1657834" role="" type="relation" />
+      <member ref="2714729" role="" type="relation" />
+      <member ref="2717753" role="" type="relation" />
+      <member ref="2717754" role="" type="relation" />
+      <member ref="2717755" role="" type="relation" />
+      <member ref="285631" role="" type="relation" />
+      <member ref="8535437" role="" type="relation" />
+      <member ref="8535120" role="" type="relation" />
+      <member ref="8535061" role="" type="relation" />
+      <member ref="8535381" role="" type="relation" />
+      <member ref="3989558" role="" type="relation" />
+      <member ref="3989559" role="" type="relation" />
+      <member ref="3989560" role="" type="relation" />
+      <member ref="4267758" role="" type="relation" />
+      <member ref="4296723" role="" type="relation" />
+      <member ref="4461148" role="" type="relation" />
+      <member ref="4461218" role="" type="relation" />
+      <member ref="4461348" role="" type="relation" />
+      <member ref="4461407" role="" type="relation" />
+      <member ref="4495003" role="" type="relation" />
+      <member ref="1999427" role="" type="relation" />
+      <member ref="4495224" role="" type="relation" />
+      <member ref="4538767" role="" type="relation" />
+      <member ref="4538768" role="" type="relation" />
+      <member ref="4538813" role="" type="relation" />
+      <member ref="4538814" role="" type="relation" />
+      <member ref="4538815" role="" type="relation" />
+      <member ref="4539162" role="" type="relation" />
+      <member ref="4539374" role="" type="relation" />
+      <member ref="4281056" role="" type="relation" />
+      <member ref="4090794" role="" type="relation" />
+      <member ref="4090728" role="" type="relation" />
+      <member ref="4069641" role="" type="relation" />
+      <member ref="4069642" role="" type="relation" />
+      <member ref="4091323" role="" type="relation" />
+      <member ref="4091882" role="" type="relation" />
+      <member ref="2924580" role="" type="relation" />
+      <member ref="4070182" role="" type="relation" />
+      <member ref="2457391" role="" type="relation" />
+      <member ref="4070183" role="" type="relation" />
+      <member ref="4203466" role="" type="relation" />
+      <member ref="4091272" role="" type="relation" />
+      <member ref="2458618" role="" type="relation" />
+      <member ref="4091274" role="" type="relation" />
+      <member ref="4091276" role="" type="relation" />
+      <member ref="4219248" role="" type="relation" />
+      <member ref="4219249" role="" type="relation" />
+      <member ref="4219250" role="" type="relation" />
+      <member ref="4219251" role="" type="relation" />
+      <member ref="4219252" role="" type="relation" />
+      <member ref="1843689" role="" type="relation" />
+      <member ref="4107906" role="" type="relation" />
+      <member ref="2385341" role="" type="relation" />
+      <member ref="4099576" role="" type="relation" />
+      <member ref="2385342" role="" type="relation" />
+      <member ref="4099116" role="" type="relation" />
+      <member ref="4099117" role="" type="relation" />
+      <member ref="4099118" role="" type="relation" />
+      <member ref="4203545" role="" type="relation" />
+      <member ref="4203743" role="" type="relation" />
+      <member ref="4203744" role="" type="relation" />
+      <member ref="4208989" role="" type="relation" />
+      <member ref="4208990" role="" type="relation" />
+      <member ref="4219391" role="" type="relation" />
+      <member ref="4219392" role="" type="relation" />
+      <member ref="2908535" role="" type="relation" />
+      <member ref="4239415" role="" type="relation" />
+      <member ref="4267461" role="" type="relation" />
+      <member ref="4267487" role="" type="relation" />
+      <member ref="9772194" role="" type="relation" />
+      <member ref="9772182" role="" type="relation" />
+      <member ref="9772139" role="" type="relation" />
+      <member ref="9772127" role="" type="relation" />
+      <member ref="9772122" role="" type="relation" />
+      <member ref="9772066" role="" type="relation" />
+      <member ref="9771883" role="" type="relation" />
+      <member ref="9765570" role="" type="relation" />
+      <member ref="6718744" role="" type="relation" />
+      <member ref="2648582" role="" type="relation" />
+      <member ref="2644202" role="" type="relation" />
+      <member ref="2644206" role="" type="relation" />
+      <member ref="2642817" role="" type="relation" />
+      <member ref="2637273" role="" type="relation" />
+      <member ref="2632354" role="" type="relation" />
+      <member ref="2627238" role="" type="relation" />
+      <member ref="2626713" role="" type="relation" />
+      <member ref="2623236" role="" type="relation" />
+      <member ref="2249131" role="" type="relation" />
+      <member ref="4782787" role="" type="relation" />
+      <member ref="4782753" role="" type="relation" />
+      <member ref="4782810" role="" type="relation" />
+      <member ref="4782828" role="" type="relation" />
+      <member ref="8169858" role="" type="relation" />
+      <member ref="8169884" role="" type="relation" />
+      <member ref="8172282" role="" type="relation" />
+      <member ref="8172325" role="" type="relation" />
+      <member ref="8172881" role="" type="relation" />
+      <member ref="8172923" role="" type="relation" />
+      <member ref="8173000" role="" type="relation" />
+      <member ref="8173489" role="" type="relation" />
+      <tag k="description" v="Stages R1 - R161, Muggia (Trieste) - Monaco" />
+      <tag k="from" v="Partenza" />
+      <tag k="name" v="Via Alpina Red" />
+      <tag k="name:de" v="Via Alpina Rot" />
+      <tag k="name:fr" v="Via Alpina Rouge" />
+      <tag k="name:it" v="Via Alpina Rosso" />
+      <tag k="network" v="iwn" />
+      <tag k="operator" v="via-alpina.org" />
+      <tag k="osmc:symbol" v="black:red:white_triangle:V:blue" />
+      <tag k="route" v="hiking" />
+      <tag k="symbol" v="Two curves form an uppercase V in front of an A-shaped gray triangle" />
+      <tag k="symbol:de" v="Via-Alpina-Symbol (Zwei den Buchstaben &quot;V&quot; formende B&#246;gen vor einem Dreieck in A-Form)" />
+      <tag k="symbol:fr" v="Deux courbes font un V majuscule devant un triangle gris en forme de A" />
+      <tag k="symbol:it" v="Due curve fanno una V maiusculo di fronte ad un triangolo grigio a forma di A" />
+      <tag k="type" v="route" />
+    </relation>
+    </modify>
+  <modify>
+    <relation id="5989121" timestamp="2019-07-10T10:56:26Z" uid="2126146" user="johnparis" version="6">
+      <member ref="271451" role="" type="relation" />
+      <member ref="5989120" role="" type="relation" />
+      <tag k="colour" v="#3fc8f4" />
+      <tag k="name" v="Bus DM4 : La Treille - Viry-Ch&#226;tillon &#8596; RER Gare Condorcet" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM4" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055004:DM04" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    <relation id="5998406" timestamp="2019-07-10T10:56:26Z" uid="2126146" user="johnparis" version="4">
+      <member ref="251803" role="" type="relation" />
+      <member ref="5998405" role="" type="relation" />
+      <member ref="7824088" role="" type="relation" />
+      <member ref="7824069" role="" type="relation" />
+      <tag k="colour" v="#FE360E" />
+      <tag k="name" v="Bus DM22 : Tuileries - Grigny &#8596; Gare de Savigny-sur-Orge" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM22" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055022:DM22" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    <relation id="6010903" timestamp="2019-07-10T10:56:26Z" uid="2126146" user="johnparis" version="5">
+      <member ref="253230" role="" type="relation" />
+      <member ref="6010902" role="" type="relation" />
+      <member ref="7824631" role="" type="relation" />
+      <member ref="7824630" role="" type="relation" />
+      <tag k="colour" v="#006DB7" />
+      <tag k="name" v="Bus DM5 : ZI Croix Blanche &#8596; RER Gare Condorcet" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM5" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055005:DM05" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    <relation id="7073416" timestamp="2019-07-10T15:25:57Z" uid="1216993" user="clementroux" version="22">
+      <member ref="7222834" role="" type="relation" />
+      <member ref="7843764" role="" type="relation" />
+      <member ref="7843960" role="" type="relation" />
+      <member ref="8634344" role="" type="relation" />
+      <tag k="colour" v="#ff8c00" />
+      <tag k="name" v="Bus DM151 : Paris-Porte d'Orl&#233;ans &#8596; Arpajon-Porte d'&#201;tampes" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM151" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055155001:DM151" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+      <tag k="url:leaflet" v="http://www.transports-daniel-meyer.fr/medias/pdf/hiver/DM151.pdf" />
+      <tag k="url:timetable" v="http://www.transports-daniel-meyer.fr/" />
+    </relation>
+    </modify>
+  <modify>
+    <relation id="7245040" timestamp="2019-07-10T10:56:26Z" uid="2126146" user="johnparis" version="9">
+      <member ref="7244919" role="" type="relation" />
+      <member ref="7244761" role="" type="relation" />
+      <member ref="7245733" role="" type="relation" />
+      <member ref="7823057" role="" type="relation" />
+      <tag k="colour" v="#d674ba" />
+      <tag k="name" v="Bus DM3 : RER Gare Condorcet &#8596; F. Mitterrand - Viry-Ch&#226;tillon ou Sycomores" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM3" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055003:DM03" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    </modify>
+  <modify>
+    <relation id="7423843" timestamp="2019-07-09T21:16:54Z" uid="2126146" user="johnparis" version="16">
+      <member ref="7843961" role="" type="relation" />
+      <member ref="8634337" role="" type="relation" />
+      <tag k="colour" v="#66c4dc" />
+      <tag k="name" v="Bus DM153 : Gare de Massy-Palaiseau &#8596; Arpajon - Porte d'&#201;tampes" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="K&#233;olis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM153" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055155003:DM153" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+      <tag k="url:leaflet" v="http://www.transports-daniel-meyer.fr/medias/pdf/hiver/DM153.pdf" />
+      <tag k="url:timetable" v="http://www.transports-daniel-meyer.fr/" />
+    </relation>
+    <relation id="7782019" timestamp="2019-07-09T20:22:43Z" uid="2126146" user="johnparis" version="7">
+      <member ref="7782013" role="" type="relation" />
+      <member ref="7782018" role="" type="relation" />
+      <tag k="colour" v="#F6837E" />
+      <tag k="name" v="Bus 528 : Porte de Clichy &#8596; Gare Saint-Lazare" />
+      <tag k="network" v="RATP" />
+      <tag k="operator" v="RATP" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="528" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="100100528:528" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    <relation id="7835489" timestamp="2019-07-10T15:01:46Z" uid="184969" user="EvanE" version="16">
+      <member ref="7804633" role="" type="relation" />
+      <member ref="7835488" role="" type="relation" />
+      <tag k="colour" v="#1b86bb" />
+      <tag k="name" v="Bus DM17B : Nozay &#8596; Epinay" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM17B" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055017:DM17B" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+      <tag k="url:leaflet" v="http://www.transports-daniel-meyer.fr/medias/pdf/hiver/DM17%20B.pdf" />
+      <tag k="url:timetable" v="http://www.transports-daniel-meyer.fr/" />
+    </relation>
+    <relation id="8220074" timestamp="2019-07-10T14:12:53Z" uid="2126146" user="johnparis" version="8">
+      <member ref="9770949" role="" type="relation" />
+      <member ref="9770947" role="" type="relation" />
+      <member ref="8220082" role="" type="relation" />
+      <member ref="8220063" role="" type="relation" />
+      <tag k="colour" v="#FF66FF" />
+      <tag k="name" v="Bus DM26 : Arpajon RER &#8596; Ollainville - Rond-Point la Roche" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM26" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055026:DM26" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+    </relation>
+    </modify>
+  <modify>
+    <relation id="8446805" timestamp="2019-07-10T10:56:26Z" uid="184969" user="EvanE" version="8">
+      <member ref="8446804" role="" type="relation" />
+      <member ref="8446803" role="" type="relation" />
+      <tag k="colour" v="#c41a89" />
+      <tag k="name" v="Bus DM09 : Ch&#226;teau d'Eau (Linas) &#8596; Gare de St-Michel-sur-Orge" />
+      <tag k="network" v="Daniel Meyer" />
+      <tag k="operator" v="Keolis Meyer" />
+      <tag k="public_transport:version" v="2" />
+      <tag k="ref" v="DM09" />
+      <tag k="ref:FR:STIF:ExternalCode_Line" v="055055009:DM09" />
+      <tag k="route_master" v="bus" />
+      <tag k="type" v="route_master" />
+      <tag k="url:leaflet" v="http://www.transports-daniel-meyer.fr/medias/pdf/hiver/DM09.pdf" />
+      <tag k="url:timetable" v="http://www.transports-daniel-meyer.fr/" />
+    </relation>
+    </modify>
+  </osmChange>
