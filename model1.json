@@ -2,7 +2,7 @@
     "@context": "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context",
     "@graph": [
         {
-            "@id": "https://localhost:8001/osm/model1",
+            "@id": "https://localhost:8001/osm/t01",
             "@type": "TraceModel",
             "inBase": "./" ,
             "hasUnit": "millisecond"
@@ -91,33 +91,33 @@
         },
 
 // Attributs 
-
-/*        {
-            "@id": "#DateDebut" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#Change"] ,
-            "hasAttributeDatatype": ["xsd:date"] ,
-            "label": "DateDebut"
-        },
-        {
-            "@id": "#DateFin" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#Change"] ,
-            "hasAttributeDatatype": ["xsd:date"] ,
-            "label": "DateFin"
-        },*/
+    // dates : prévu par ktbs
+    //    {
+    //       "@id": "#DateDebut" ,
+    //        "@type": "AttributeType" ,
+    //        "hasAttributeObselType": ["#Change"] ,
+    //        "hasAttributeDatatype": ["xsd:date"] ,
+    //        "label": "DateDebut"
+    //    },
+    //    {
+    //        "@id": "#DateFin" ,
+    //        "@type": "AttributeType" ,
+    //       "hasAttributeObselType": ["#Change"] ,
+    //        "hasAttributeDatatype": ["xsd:date"] ,
+    //        "label": "DateFin"
+    //    },
         {
             "@id": "#User" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#Change"] ,
             "hasAttributeDatatype": ["xsd:string"] ,
-            "label": "User_name"
+            "label": "User"
         }, 
         {
             "@id": "#Uid" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#Change"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
             "label": "User_id"
         },
         {
@@ -127,115 +127,42 @@
             "hasAttributeDatatype": ["xsd:int"] ,
             "label": "Version"
         },
-        //Create_Way - Modify_Way - Delete_Way 
+
+        // id
         {
             "@id": "#id" ,
             "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#CreateWay"] ,
+            "hasAttributeObselType": ["#CreateNode", "#ModifyNode", "#DeleteNode", "#CreateWay", "#ModifyWay", "#DeleteWay", "#CreateRelation", "#ModifyRelation", "#DeleteRelation"] ,
             "hasAttributeDatatype": ["xsd:int"] ,
             "label": "id"
         },
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#ModifyWay"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#DeleteWay"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-        //Create_ - Modify_ - Delete_ NODE
-        //CreateNode
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#CreateNode"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
+        
+        // lat & lon
         {
             "@id": "#Latitude" ,
             "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#CreateNode"] ,
+            "hasAttributeObselType": ["#CreateNode", "#ModifyNode"] ,
             "hasAttributeDatatype": ["xsd:float"] ,
             "label": "Latitude"
         },
          {
             "@id": "#Longitude" ,
             "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#CreateNode"] ,
+            "hasAttributeObselType": ["#CreateNode", "#ModifyNode"] ,
             "hasAttributeDatatype": ["xsd:float"] ,
             "label": "Longitude"
         },
-        //Modify
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#ModifyNode"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-        {
-            "@id": "#Latitude" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#ModifyNode"] ,
-            "hasAttributeDatatype": ["xsd:float"] ,
-            "label": "Latitude"
-        },
-         {
-            "@id": "#Longitude" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#ModifyNode"] ,
-            "hasAttributeDatatype": ["xsd:float"] ,
-            "label": "Longitude"
-        },
-        //DeleteNode attibuts
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#DeleteNode"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-      // Create Modify Delete RELATION 
-       //  Create   
-        {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#CreateRelation"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-        // Modify
-         {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#ModifyRelation"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
-        // Delete  
-         {
-            "@id": "#id" ,
-            "@type": "AttributeType" ,
-            "hasAttributeObselType": ["#DeleteRelation"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
-            "label": "id"
-        },
+        
 
         // AddNd Attributs 
         {
             "@id": "#Ref" ,
             "@type": "AttributeType" ,
             "hasAttributeObselType": ["#AddNd"] ,
-            "hasAttributeDatatype": ["xsd:int"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
             "label": "Ref"
         },
+
         // AddTag Attributs
         //key
         {
@@ -282,17 +209,17 @@
 // Relations avec AddNd AddTag AddMember 
     //AddNd 
         {
-            "@id": "#ToAddNd" ,
+            "@id": "#AddNdTo" ,
             "@type": "RelationType" ,
-            "hasRelationOrigin": ["#AddTag"] ,
+            "hasRelationOrigin": ["#AddNd"] ,
             "hasRelationDestination": ["#CreateWay", "#ModifyWay"]
         },
     //AddTag
         {
-            "@id": "#ToAddTag" ,
-            "@type": "RelationType" ,
-            "hasRelationOrigin": ["#CreateWay", "#ModifyWay","#CreateNode","#ModifyNode","#CreateRelation","#ModifyRelation"] ,
-            "hasRelationDestination": ["#AddNd"]
+            "@id": "#AddTagTo" ,
+            "@type": "RelationType" ,   
+            "hasRelationOrigin": ["#AddTag"] ,
+            "hasRelationDestination": ["#CreateWay", "#ModifyWay","#CreateNode","#ModifyNode","#CreateRelation","#ModifyRelation"]
         },
 
     ]
