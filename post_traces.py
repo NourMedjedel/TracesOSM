@@ -7,6 +7,7 @@ def post(url, json):
     r = requests.post(url=url, json=json)
     if r.status_code >= 300:
         print(r.status_code, r.reason)
+        print(url)
         print(json)
 
 
@@ -107,7 +108,7 @@ def post_osc_file(osc_file: str, trace_url: str):
 def post_trace(base_url: str, trace_id, model_id):
     model_url = base_url + model_id
     json = {
-        "@id": "{}".format(trace_id),
+        "@id": "{}/".format(trace_id),
         "@type": "StoredTrace",
         "hasModel": model_url,
         "origin": "1970-01-01T00:00:00Z"
