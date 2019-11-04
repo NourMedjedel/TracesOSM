@@ -1,5 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
+import sys
 
 
 def post_osc_file(osc_file: str, model_url: str):
@@ -83,5 +84,11 @@ def post_osc_file(osc_file: str, model_url: str):
                 requests.post(url=model_url, json=json)
 
 
+def main(argv):
+    osc_file = argv[1]
+    model_url = argv[2]
+
+
 if __name__ == '__main__':
-    url = "http://localhost:8001/osm/traces"
+    argv = sys.argv
+    main(argv)
