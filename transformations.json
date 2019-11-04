@@ -1,26 +1,34 @@
-// Filter Create Node
+// Fusion 300 to 317
 {
-    "@id": "filter_create_node/",
+    "@id": "fusion_300_to_317/",
     "@type": "ComputedTrace",
-    "hasMethod": "filter",
-    "hasSource": [ "t01/" ],
-    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateNode" ]
+    "hasMethod": "fusion",
+    "hasSource": [ "300/", "301/", "302/", "303/", "304/", "305/", "306/", "307/", "308/", "309/", "310/", "311/", "312/", "313/", "314/", "315/", "316/", "317/" ]
 }
 
-// Filter Create Way
+// Filter Create
 {
-    "@id": "filter_create_way/",
+    "@id": "filter_create/",
     "@type": "ComputedTrace",
     "hasMethod": "filter",
-    "hasSource": [ "t01/" ],
-    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateWay" ]
+    "hasSource": [ "fusion_300_to_317/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateNode http://localhost:8001/osm/model1#CreateWay http://localhost:8001/osm/model1#CreateRelation" ]
 }
 
-// Filter Create Relation
+// Filter Modify
 {
-    "@id": "filter_create_relation/",
+    "@id": "filter_modify/",
     "@type": "ComputedTrace",
     "hasMethod": "filter",
-    "hasSource": [ "t01/" ],
-    "parameter": [ "otypes=http://localhost:8001/osm/model1#CreateRelation" ]
+    "hasSource": [ "fusion_300_to_317/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#ModifyNode http://localhost:8001/osm/model1#ModifyWay http://localhost:8001/osm/model1#ModifyRelation" ]
+}
+
+// Filter Delete
+{
+    "@id": "filter_delete/",
+    "@type": "ComputedTrace",
+    "hasMethod": "filter",
+    "hasSource": [ "fusion_300_to_317/" ],
+    "parameter": [ "otypes=http://localhost:8001/osm/model1#DeleteNode http://localhost:8001/osm/model1#DeleteWay http://localhost:8001/osm/model1#DeleteRelation" ]
 }
