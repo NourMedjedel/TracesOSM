@@ -58,7 +58,7 @@ def post_osc_file(osc_file: str, model_url: str):
                         "endDT": timestamp,
                         "m:Ref": int(nd.attrib["ref"]),
                         "m:AddNdTo": {
-                            "@id": "{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
+                            "@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                     }
                     post(url=model_url, json=json)
 
@@ -98,7 +98,7 @@ def post_osc_file(osc_file: str, model_url: str):
                     "endDT": timestamp,
                     "m:Key": tag.attrib["k"],
                     "m:Value": tag.attrib["v"],
-                    "m:AddTagTo": {"@id": "{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
+                    "m:AddTagTo": {"@id": "{}_{}_{}".format(element.tag, element.attrib["id"], element.attrib["version"])}
                 }
                 post(url=model_url, json=json)
 
